@@ -1,0 +1,414 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, braiins
+# This file is distributed under the same license as the doctest package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: doctest \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-26 10:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Basic Guide/index_usersguide.rst:14 User's
+msgid "Basic User's Guide"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:22 User's
+msgid "Web Statistics"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:24 User's
+msgid ""
+"Statistics that are displayed on the main page of the Web GUI are "
+"explained below."
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:27 User's
+msgid "Hash Chains"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:29 User's
+msgid ""
+"**ID**                    - Hash Chain ID, corresponds with the labeling "
+"on the control board"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:30 User's
+msgid "**REAL HASH RATE**        - Actual hash rate of the hash chain"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:31 User's
+msgid ""
+"**NOMINAL HASH RATE**     - Theoretical hash rate of the hash chain, "
+"based on the frequency of the chips"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:32 User's
+msgid "**VOLTAGE**               - Voltage used on the hash chain"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:33 User's
+msgid "**FREQUENCY**             - Frequency of the chips (average)"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:34 User's
+msgid ""
+"**BOARD TEMP**            - Temperature reported by the sensors on the "
+"hash board"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:35 User's
+msgid ""
+"**CHIP TEMP**             - Temperature reported by the sensors on the "
+"chip"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:36 User's
+msgid "**ASIC#**                 - Number of functioning ASIC chips"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:37 User's
+msgid ""
+"**CORE#**                 - Summary of active cores on all functioning "
+"chips"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:38 User's
+msgid ""
+"**HARDWARE ERRORS**       - Number of hardware faults - invalid work due "
+"to a hardware miscalculation"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:39 User's
+msgid ""
+"**HW ERROR HASH RATE**    - Hash rate \"loss\" due to HW errors; adding "
+"HW Error Hash Rate together with the Real Hash Rate should equal the "
+"Nominal Hash Rate"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:42 User's
+msgid "Pools"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:44 User's
+msgid "**ID**                    - Pool order, as specified by the user"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:45 User's
+msgid "**URL**                   - Mining pool URL address"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:46 User's
+msgid ""
+"**USER**                  - Username and worker name, as specified by the"
+" user"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:47 User's
+msgid ""
+"**STATUS**                - Status of the pool - \"Alive\" when the pool "
+"is reachable by the miner, \"Dead\" when the pool is not reachable on "
+"that URL"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:48 User's
+msgid ""
+"**ACTIVE**                - Active status: \"Yes\" - pool is being used "
+"to serve mining jobs; \"No\" - pool is not used"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:49 Guide/index_usersguide.rst:63
+#: User's
+msgid ""
+"**ACCEPTED**              - Number of submited shares that were accepted "
+"by the pool"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:50 Guide/index_usersguide.rst:65
+#: User's
+msgid ""
+"**REJECTED**              - Number of submited shares that were rejected "
+"by the pool"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:51 User's
+msgid ""
+"**STALE**                 - Number of submited shares for a job that is "
+"no longer valid"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:52 User's
+msgid "**LAST DIFFICULTY**       - Last share difficulty"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:53 User's
+msgid ""
+"**GENERATED WORK**        - Amount of generated work for the chips to "
+"solve"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:54 User's
+msgid ""
+"**ASICBOOST**             - AsicBoost status - \"Yes\" for enabled, "
+"\"No\" for disabled"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:57 User's
+msgid "Summary"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:59 User's
+msgid "**HASH RATE 1M**          - Average hash rate for the last 1 minute"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:60 User's
+msgid "**HASH RATE 15M**         - Average hash rate for the last 15 minutes"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:61 User's
+msgid "**HASH RATE 24H**         - Average hash rate for the last 24 hours"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:62 User's
+msgid "**FOUND BLOCKS**          - Number of blocks found"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:64 User's
+msgid "**DIFFICULTY ACCEPTED**   - Difficulty of the last accepted share"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:66 User's
+msgid "**DIFFICULTY REJECTED**   - Difficulty of the last rejected share"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:67 User's
+msgid ""
+"**REJECTION RATIO**       - Ratio of rejected shares and total number of "
+"shares (including accepted)"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:68 User's
+msgid "**ELAPSED TIME**          - Elapsed time since BOSminer started"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:69 User's
+msgid ""
+"**HARDWARE ERRORS**       - Number of hardware faults - rejected work due"
+" to a hardware miscalculation"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:70 User's
+msgid "**SHARES/1M**             - Average amount of shares accepted per minute"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:73 User's
+msgid "Fan Monitor"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:75 User's
+msgid "**ID**                    - Order of the fans"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:76 User's
+msgid "**SPEED**                 - Speed of the fan (% PWM)"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:77 User's
+msgid "**RPM**                   - Revolutions per minute of the fan"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:81 User's
+msgid "Miner Signalization (LED)"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:83 User's
+msgid ""
+"Miner LED signalization depends on its operational mode. There are two "
+"modes (*recovery* and *normal*) which are signaled by the **green** and "
+"**red LEDs** on the front panel. The LED on the control board (inside) "
+"always shows the *heartbeat* (i.e.flashes at a load average based rate)."
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:90 User's
+msgid "Recovery Mode"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:92 User's
+msgid ""
+"Recovery mode is signaled by the **flashing green LED** (50 ms on, 950 ms"
+" off) on the front panel. The **red LED** represents access to a NAND "
+"disk and flashes during factory reset when data is written to NAND."
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:97 User's
+msgid "Normal Mode"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:99 User's
+msgid ""
+"The normal mode state is signaled by the combination of the front panel "
+"**red** and **green LEDs** as specified in the table below:"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:103 User's
+msgid "red LED"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:103 User's
+msgid "green LED"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:103 User's
+msgid "meaning"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:105 User's
+msgid "on"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:105 Guide/index_usersguide.rst:109
+#: Guide/index_usersguide.rst:117 User's
+msgid "off"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:105 User's
+msgid "*bosminer* or *bosminer_monitor* are not running"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:109 User's
+msgid "slow flashing"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:109 User's
+#, python-format
+msgid ""
+"hash rate is below 80% of expected hash rate or the miner cannot connect "
+"to any pool (all pools are dead)"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:117 User's
+msgid "very slow flashing (1 sec on, 1 sec off)"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:117 User's
+#, python-format
+msgid "*miner* is operational and hash rate above 80 % of expected hash rate"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:123 User's
+msgid "fast flashing"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:123 User's
+msgid "N/A"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:123 User's
+msgid "LED override requested by user (``miner fault_lig ht on``)"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:131 User's
+msgid "Identifying a miner"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:134 User's
+msgid "LED blinking"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:136 User's
+msgid ""
+"The local miner utility can also be used to identify a particular device "
+"by enabling aggressive blinking of the **red LED**:"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:143 User's
+msgid "Similarly to disable the LED run:"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:150 User's
+msgid "Discover script"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:152 User's
+msgid ""
+"The script *discover.py* is to be used to discover supported mining "
+"devices in the local network and has two working modes. First, clone the "
+"repository and prepare the enviroment using the following commands:"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:167 User's
+msgid "Listen mode"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:169 User's
+msgid ""
+"In this mode, IP and MAC addresses of the device are displayed after the "
+"IP Report button is pressed. Parameter ``--format`` can be used to change"
+" the default formatting of IP/MAC information."
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:180 User's
+msgid "Scan mode"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:182 User's
+msgid ""
+"In this mode, the script scans the specified network range for supported "
+"devices. The parameter is expected to include a list of IP addresses or "
+"an IP subnetwork with a mask (example below) to scan a whole subnetwork."
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:186 User's
+msgid ""
+"For each device, the output includes a MAC address, IP address, system "
+"info, hostname, and a mining username configured."
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:198 User's
+msgid "Enter/Exit Recovery Mode"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:200 User's
+msgid ""
+"Users don’t typically have to enter recovery mode while using Braiins OS "
+"in a standard way. The ``restore2factory.py`` downgrade process uses it "
+"to restore the original factory firmware from the manufacturer. It can "
+"also be useful when repairing or investigating the currently installed "
+"system."
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:206 User's
+msgid "Recovery mode can be invoked in the following different ways:"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:208 User's
+msgid "*IP SET button* - hold it for *3s* until green LED flashes"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:209 User's
+msgid ""
+"*SD card* - first partition with FAT contains file *uEnv.txt* with a line"
+" **recovery=yes**"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:210 User's
+msgid ""
+"*miner utility* - call ``miner run_recovery`` from the miner’s command "
+"line"
+msgstr ""
+
+#: ../../Basic Guide/index_usersguide.rst:212 User's
+msgid ""
+"Recovery mode can be exited by rebooting the device. If the device "
+"reboots to the recovery mode, it means that there is a problem with the "
+"installation or configuration."
+msgstr ""
+

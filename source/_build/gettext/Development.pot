@@ -1,0 +1,978 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, braiins
+# This file is distributed under the same license as the doctest package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: doctest \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-26 10:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../Development/1_api.rst:14
+msgid "BOSminer API"
+msgstr ""
+
+#: ../../Development/1_api.rst:22
+msgid "Usage"
+msgstr ""
+
+#: ../../Development/1_api.rst:24
+msgid "Basic subset of the upstream cgminer API as well as several new commands are implemented."
+msgstr ""
+
+#: ../../Development/1_api.rst:27
+msgid "To test API, you can use `nc` in the following way *(replace the *IP_ADDRESS* placeholder with your miner's IP address)*:"
+msgstr ""
+
+#: ../../Development/1_api.rst:29
+msgid "**Single command**"
+msgstr ""
+
+#: ../../Development/1_api.rst:35
+msgid "In case you want to format JSON string, you can use `jq`:"
+msgstr ""
+
+#: ../../Development/1_api.rst:41
+msgid "**Multiple commands**"
+msgstr ""
+
+#: ../../Development/1_api.rst:48
+msgid "**Command with parameter**"
+msgstr ""
+
+#: ../../Development/1_api.rst:56
+msgid "List of all supported commands"
+msgstr ""
+
+#: ../../Development/1_api.rst:60
+msgid "Commands from the CGminer API"
+msgstr ""
+
+#: ../../Development/1_api.rst:62
+msgid "We provide only brief description of the commands below. If interested in additional details, please read the `official documentation. <https://github.com/ckolivas/cgminer/blob/master/API-README>`_"
+msgstr ""
+
+#: ../../Development/1_api.rst:65
+msgid "**asccount** - The details of a single ASC number N in the same format and details as for DEVS"
+msgstr ""
+
+#: ../../Development/1_api.rst:66
+msgid "**asc** *|N* - The number of ASCs"
+msgstr ""
+
+#: ../../Development/1_api.rst:67
+msgid "**config** - Some miner configuration information"
+msgstr ""
+
+#: ../../Development/1_api.rst:68
+msgid "**devdetails** - Report per chain configuration"
+msgstr ""
+
+#: ../../Development/1_api.rst:69
+msgid "**devs** - Each available ASC with their details"
+msgstr ""
+
+#: ../../Development/1_api.rst:70
+msgid "**edevs** *[|old]* - The same as devs, except it ignores blacklisted devices and zombie devices (unless the \"old\" parameter is used)"
+msgstr ""
+
+#: ../../Development/1_api.rst:71
+msgid "**pools** - Report pool configuration and statistics"
+msgstr ""
+
+#: ../../Development/1_api.rst:72
+msgid "**summary** - The status summary of the miner"
+msgstr ""
+
+#: ../../Development/1_api.rst:73
+msgid "**stats** - Each device or pool that has 1 or more getworks with a list of stats regarding getwork times"
+msgstr ""
+
+#: ../../Development/1_api.rst:74
+msgid "**version** - Print API and BOSminer version"
+msgstr ""
+
+#: ../../Development/1_api.rst:75
+msgid "**estats** - the same as stats, except it ignores blacklisted devices and zombie devices"
+msgstr ""
+
+#: ../../Development/1_api.rst:76
+msgid "**check** - checks, whether the API command exists and is accessible"
+msgstr ""
+
+#: ../../Development/1_api.rst:77
+msgid "**coin** - coin mining information"
+msgstr ""
+
+#: ../../Development/1_api.rst:78
+msgid "**lcd** - short status summary of the miner"
+msgstr ""
+
+#: ../../Development/1_api.rst:79
+msgid "**switchpool** *|N* - switches the selected pool to the highest priority"
+msgstr ""
+
+#: ../../Development/1_api.rst:80
+msgid "**enablepool** *|N* - enables the selected pool"
+msgstr ""
+
+#: ../../Development/1_api.rst:81
+msgid "**disablepool** *|N* - disables the selected pool"
+msgstr ""
+
+#: ../../Development/1_api.rst:82
+msgid "**addpool** *|URL,USR,PASS* - adds pool"
+msgstr ""
+
+#: ../../Development/1_api.rst:83
+msgid "**removepool** *|N* - removes pool"
+msgstr ""
+
+#: ../../Development/1_api.rst:85
+msgid "**Note**: the commands *switchpool*, *enablepool*, *disablepool*, *addpool* and *removepool* are not fully implemented in Braiins OS. The outcome of these commands is reset after restart and they do not activate the pools. This is a known issue and is being fixed."
+msgstr ""
+
+#: ../../Development/1_api.rst:89
+msgid "New commands"
+msgstr ""
+
+#: ../../Development/1_api.rst:91
+msgid "**fans** - Report fans statistics"
+msgstr ""
+
+#: ../../Development/1_api.rst:92
+msgid "**tempctrl** - Report temperature control configuration"
+msgstr ""
+
+#: ../../Development/1_api.rst:93
+msgid "**temps** - Report temperature data"
+msgstr ""
+
+#: ../../Development/1_api.rst:94
+msgid "**tunerstatus** - Report tuning statistics"
+msgstr ""
+
+#: ../../Development/1_api.rst:95
+msgid "**pause** - Immediately pause mining and stop power consumption, prepare for resume"
+msgstr ""
+
+#: ../../Development/1_api.rst:96
+msgid "**resume** - Resume mining after miner has been paused"
+msgstr ""
+
+#: ../../Development/1_api.rst:100
+msgid "Examples"
+msgstr ""
+
+#: ../../Development/1_api.rst:102
+msgid "**fans** Report fans statistics"
+msgstr ""
+
+#: ../../Development/1_api.rst:157
+msgid "**tempctrl** Report temperature control configuration"
+msgstr ""
+
+#: ../../Development/1_api.rst:194
+msgid "**temps** Report temperature data"
+msgstr ""
+
+#: ../../Development/1_api.rst:243
+msgid "**tunerstatus** Report tuning statistics"
+msgstr ""
+
+#: ../../Development/1_api.rst:315
+msgid "**devdetails** Report device details"
+msgstr ""
+
+#: ../../Development/1_api.rst:383
+msgid "**pause** Pause"
+msgstr ""
+
+#: ../../Development/1_api.rst:469
+msgid "**resume** Pause"
+msgstr ""
+
+#: ../../Development/2_build.rst:14
+msgid "Braiins OS Developer Guide"
+msgstr ""
+
+#: ../../Development/2_build.rst:16
+msgid "This project is built around a small tool (braiins build system - bb.py) that extends the OpenWrt build system with the following features:"
+msgstr ""
+
+#: ../../Development/2_build.rst:19
+msgid "automatic clone/pull of all repositories"
+msgstr ""
+
+#: ../../Development/2_build.rst:20
+msgid "switching between several configurations"
+msgstr ""
+
+#: ../../Development/2_build.rst:21
+msgid "out-of-tree repositories for development"
+msgstr ""
+
+#: ../../Development/2_build.rst:22
+msgid "status of all developed repositories"
+msgstr ""
+
+#: ../../Development/2_build.rst:23
+msgid "cleaning and purging repositories"
+msgstr ""
+
+#: ../../Development/2_build.rst:24
+msgid "setup environment for using the OpenWrt toolchain in external projects"
+msgstr ""
+
+#: ../../Development/2_build.rst:26
+msgid "firmware deployment to NAND/SD over ssh connection or to local repository"
+msgstr ""
+
+#: ../../Development/2_build.rst:28
+msgid "release version control and firmware signing"
+msgstr ""
+
+#: ../../Development/2_build.rst:29
+msgid "preparation of feed server with firmware updates"
+msgstr ""
+
+#: ../../Development/2_build.rst:33
+msgid "Getting Started"
+msgstr ""
+
+#: ../../Development/2_build.rst:35
+msgid "These instructions will guide you through the process of setting up a copy of the project and getting it running on your local machine for development and testing purposes. See the :ref:`deployment` section for notes on how to deploy the project on a live system."
+msgstr ""
+
+#: ../../Development/2_build.rst:43
+msgid "Prerequisites"
+msgstr ""
+
+#: ../../Development/2_build.rst:45
+msgid "The build system is written for *Python 3.5*. The only prerequisites are:"
+msgstr ""
+
+#: ../../Development/2_build.rst:48
+msgid "Python 3.5.x"
+msgstr ""
+
+#: ../../Development/2_build.rst:49
+msgid "virtualenv 15.x.x"
+msgstr ""
+
+#: ../../Development/2_build.rst:50
+msgid "pip3 9.x.x"
+msgstr ""
+
+#: ../../Development/2_build.rst:54
+msgid "Installing"
+msgstr ""
+
+#: ../../Development/2_build.rst:56
+msgid "Clone the git repository to some directory and setup your system environment:"
+msgstr ""
+
+#: ../../Development/2_build.rst:70
+msgid "Building Latest Firmware Images in Docker"
+msgstr ""
+
+#: ../../Development/2_build.rst:72
+msgid "The description below shows how to build firmware images generating all local targets (feeds, SD card image and transitional firmware images). This is simplified."
+msgstr ""
+
+#: ../../Development/2_build.rst:78
+msgid "Docker install"
+msgstr ""
+
+#: ../../Development/2_build.rst:80
+msgid "Details for installing docker are covered here: https://docs.docker.com/install/linux/docker-ce/ubuntu/ Here's a brief extract of the install:"
+msgstr ""
+
+#: ../../Development/2_build.rst:94
+msgid "Docker steps"
+msgstr ""
+
+#: ../../Development/2_build.rst:96
+msgid "Clone the latest release"
+msgstr ""
+
+#: ../../Development/2_build.rst:103
+msgid "Prepare a docker container with all tools:"
+msgstr ""
+
+#: ../../Development/2_build.rst:109
+msgid "Runs a full build for the current revision of the **braiins-os** release using a test signature key."
+msgstr ""
+
+#: ../../Development/2_build.rst:118
+msgid "Docker interactive mode"
+msgstr ""
+
+#: ../../Development/2_build.rst:120
+msgid "Call the build release script without parameters to run the docker container in an interactive mode:"
+msgstr ""
+
+#: ../../Development/2_build.rst:127
+msgid "This mode is intended mainly for testing purpose. The build environment is fully initialized and allows running all *bb.py* script commands. The current host directory is mapped to the docker container so all files generated by the build process are accessible outside the docker container."
+msgstr ""
+
+#: ../../Development/2_build.rst:135
+msgid "Viewing/Building Documentation Locally"
+msgstr ""
+
+#: ../../Development/2_build.rst:137
+msgid "Before pushing a new version of the documentation, it can be viewed locally by jekyll rendering all changes on the fly as follows:"
+msgstr ""
+
+#: ../../Development/2_build.rst:147
+msgid "Building"
+msgstr ""
+
+#: ../../Development/2_build.rst:149
+msgid "Building a firmware image with the configuration is very simple. Just call the *bb.py* script with the *build* command."
+msgstr ""
+
+#: ../../Development/2_build.rst:160
+msgid "All repositories are stored in the **build**/*<target>* directory where *target* is specified in a *YAML* configuration file under a *build.name* attribute."
+msgstr ""
+
+#: ../../Development/2_build.rst:166
+msgid "Platform Selection"
+msgstr ""
+
+#: ../../Development/2_build.rst:168
+msgid "The build system supports multiple platforms with the same base configuration. Currently the following platforms are supported:"
+msgstr ""
+
+#: ../../Development/2_build.rst:171
+msgid "*zynq-am1-s9* (Antminer S9)"
+msgstr ""
+
+#: ../../Development/2_build.rst:172
+msgid "*zynq-dm1-g9* (DragonMint v1 with G9 Control Board)"
+msgstr ""
+
+#: ../../Development/2_build.rst:173
+msgid "*zynq-dm1-g19* (DragonMint v1 with G19 Control Board)"
+msgstr ""
+
+#: ../../Development/2_build.rst:175
+msgid "The platform **zynq-dm1-g19** is specified in the default configuration file but it can be modified from the command line with a *platform* parameter:"
+msgstr ""
+
+#: ../../Development/2_build.rst:189
+msgid "Firmware Release"
+msgstr ""
+
+#: ../../Development/2_build.rst:191
+msgid "The firmware with specific version has tag in a git repository which contains a modified configuration set to exact commit of all dependent repositories. The tag can be checked out for specific firmware version. Afterwards, we can call *build* command for reproducible firmware release."
+msgstr ""
+
+#: ../../Development/2_build.rst:199
+msgid "Signing"
+msgstr ""
+
+#: ../../Development/2_build.rst:201
+msgid "By default the resulting firmware image and packages are signed by a test key which is specified in the default config by a *build.key* attribute and is stored in a *keys* directory. The release key is usually stored in a fortified keyring and is securely used during actual release."
+msgstr ""
+
+#: ../../Development/2_build.rst:207
+msgid "To set this key without changing the configuration file, it is possible to use a *key* parameter of the *build* command:"
+msgstr ""
+
+#: ../../Development/2_build.rst:220
+#: ../../Development/index_dev.rst:14
+msgid "Development"
+msgstr ""
+
+#: ../../Development/2_build.rst:224
+msgid "Fetching"
+msgstr ""
+
+#: ../../Development/2_build.rst:226
+msgid "The default configuration on master branch has disabled automatic fetching/merging of remote repositories when the *build* command is executed. The *prepare* command can be used instead when synchronization with remote is needed."
+msgstr ""
+
+#: ../../Development/2_build.rst:238
+msgid "Cleaning"
+msgstr ""
+
+#: ../../Development/2_build.rst:240
+msgid "It is possible to clean all projects with two options:"
+msgstr ""
+
+#: ../../Development/2_build.rst:242
+msgid "Simple execution of *clean* command runs the OpenWrt *make clean* to clean the whole build system. It does not guarantee that all files will be in their initial state."
+msgstr ""
+
+#: ../../Development/2_build.rst:246
+msgid "The second option uses git command to clean all repositories. The command after clean also runs the initialization phase again and prepares the repository for its first build. This option removes all untracked files and must be called with caution!"
+msgstr ""
+
+#: ../../Development/2_build.rst:261
+msgid "Status"
+msgstr ""
+
+#: ../../Development/2_build.rst:263
+msgid "The braiins OS project consists of several git repositories. It is convenient to track the status of all changes in all repositories at once during development. The *status* command can be used for this purpose. It is similar to git status but it is executed for all repositories."
+msgstr ""
+
+#: ../../Development/2_build.rst:276
+msgid "Out-of-Tree Build"
+msgstr ""
+
+#: ../../Development/2_build.rst:278
+msgid "Rather than executing the whole OpenWrt build system which can be slow, we can run a separate build of a subproject (e.g. CGMiner) with the OpenWrt toolchain. Environment variables must be set correctly for using the OpenWrt toolchain in out-of-tree projects. For this purpose, the *toolchain* command is provided."
+msgstr ""
+
+#: ../../Development/2_build.rst:291
+msgid "Configuration"
+msgstr ""
+
+#: ../../Development/2_build.rst:293
+msgid "The build system supports multiple configurations specified by a configuration file stored in YAML format. The current configuration can be changed from the command line. It is also possible to alter the most important parameters without modifying the underlying configuration file from the command line."
+msgstr ""
+
+#: ../../Development/2_build.rst:299
+msgid "The configuration is divided into two categories. The first one is a target-specific configuration which is handled exclusively by the braiins build system and can be adjusted only in the YAML configuration. The second one is a package configuration used for image content description which is handled mainly in the OpenWrt menuconfig."
+msgstr ""
+
+#: ../../Development/2_build.rst:307
+msgid "YAML Structure"
+msgstr ""
+
+#: ../../Development/2_build.rst:309
+msgid "The main configuration file is stored in a standard `YAML 1.2 <http://yaml.org/spec/1.2/spec.html>`__ format. The format expects predefined hierarchical structure which is formed by categories on the global level. The categories can be further divided into subcategories or they can directly contain configuration attributes."
+msgstr ""
+
+#: ../../Development/2_build.rst:315
+msgid "The string attributes can use special syntax for parameter expansion which is extension of standard YAML format. The name of the parameter for expansion is enclosed in *{}* and can be used anytime in the string. The list of supported parameters is as follows:"
+msgstr ""
+
+#: ../../Development/2_build.rst:320
+msgid "*platform* - the name defined in a *bos.platform* attribute (it has form *<target>-<subtarget>*)"
+msgstr ""
+
+#: ../../Development/2_build.rst:322
+msgid "*target* - the name of target architecture (e.g. *zynq*) that is derived from *bos.platform* attribute"
+msgstr ""
+
+#: ../../Development/2_build.rst:324
+msgid "*subtarget* - the name of target device (e.g. *dm1-g19*) that is derived from *bos.platform* attribute"
+msgstr ""
+
+#: ../../Development/2_build.rst:326
+msgid "*subtarget\\_family* - the name of the family of the subtarget (e.g. *dm1*) that is derived from *bos.platform*"
+msgstr ""
+
+#: ../../Development/2_build.rst:328
+msgid "*build\\_dir* - build directory e.g. *build/<target>*"
+msgstr ""
+
+#: ../../Development/2_build.rst:330
+msgid "Curly brackets are also used by the YAML for dictionary in an abbreviated form. If a string starts with a curly bracket, then it must be quoted to distinguish meaning:"
+msgstr ""
+
+#: ../../Development/2_build.rst:342
+msgid "The default configuration file is fully commented, so the following list of global categories is only a short description:"
+msgstr ""
+
+#: ../../Development/2_build.rst:345
+msgid "*bos* - the settings concerning one instance of a bOS device (platform, HWID, default firmware pattition); the default configuration is used only for testing and is usually overridden from the command line during release process"
+msgstr ""
+
+#: ../../Development/2_build.rst:349
+msgid "*net* - the network configuration of a target bOS device (MAC, hostname, static IP)"
+msgstr ""
+
+#: ../../Development/2_build.rst:351
+msgid "*miner* - the settings concerning only miner-specific attributes (default pool)"
+msgstr ""
+
+#: ../../Development/2_build.rst:353
+msgid "*build* - the configuration of the build process (path to OpenWrt configuration, build directories, keys, ...)"
+msgstr ""
+
+#: ../../Development/2_build.rst:355
+msgid "*remote* - the list of all remote repositories with parameters for fetching; the parameters *fetch* and *branch* used as a default value for all repositories could be overridden in a specific repository by parameter of the same name"
+msgstr ""
+
+#: ../../Development/2_build.rst:359
+msgid "*local* - the configuration of output directories for local targets for deployment"
+msgstr ""
+
+#: ../../Development/2_build.rst:361
+msgid "*feeds* - the settings of feeds fetching and installation"
+msgstr ""
+
+#: ../../Development/2_build.rst:362
+msgid "*uenv* - the configuration of *uEnv.txt* content (this file is used only for SD images)"
+msgstr ""
+
+#: ../../Development/2_build.rst:364
+msgid "*deploy* - the list of targets for deployment and configuration of this process (e.g. reset of target environment, remote ssh connection, ...)"
+msgstr ""
+
+#: ../../Development/2_build.rst:370
+msgid "Local Configuration File"
+msgstr ""
+
+#: ../../Development/2_build.rst:372
+msgid "It is possible to override each parameter specified in the default configuration file with parameters defined in a local file *.local.yml* stored in the root directory of the braiins build system."
+msgstr ""
+
+#: ../../Development/2_build.rst:376
+msgid "The structure of the local configuration is the same as default configuration file. Typically, only platform or MAC addresses of the target are being overriden:"
+msgstr ""
+
+#: ../../Development/2_build.rst:390
+msgid "*During the release process, this local configuration is ignored to avoid interference with the default configuration!*"
+msgstr ""
+
+#: ../../Development/2_build.rst:395
+msgid "CLI Parameters"
+msgstr ""
+
+#: ../../Development/2_build.rst:397
+msgid "The braiins build system supports multiple configurations which can be selected by a global parameter *--config*. When the script is run without this parameter, **configs/default.yml** is used. The *--platform* parameter can be used for changing the target platform."
+msgstr ""
+
+#: ../../Development/2_build.rst:402
+msgid "*Global configuration parameters must be consistently used with all commands to guarantee predictable results!*"
+msgstr ""
+
+#: ../../Development/2_build.rst:405
+msgid "The build system commands are described in detail in separate sections. Below is a list of supported commands:"
+msgstr ""
+
+#: ../../Development/2_build.rst:408
+msgid "*prepare* - fetch all remote repositories and prepare source directory"
+msgstr ""
+
+#: ../../Development/2_build.rst:410
+msgid "*clean* - clean source directory"
+msgstr ""
+
+#: ../../Development/2_build.rst:411
+msgid "*config* - change default configuration of OpenWrt project"
+msgstr ""
+
+#: ../../Development/2_build.rst:412
+msgid "*build* - build image for current configuration"
+msgstr ""
+
+#: ../../Development/2_build.rst:413
+msgid "*deploy* - deploy selected image to target device (NAND/SD over ssh or to local directory)"
+msgstr ""
+
+#: ../../Development/2_build.rst:415
+msgid "*status* - show status of all local repositories (*git status* equivalent)"
+msgstr ""
+
+#: ../../Development/2_build.rst:417
+msgid "*toolchain* - set environment for OpenWrt toolchain (out-of-tree build)"
+msgstr ""
+
+#: ../../Development/2_build.rst:419
+msgid "*release* - create branch with configuration for release version"
+msgstr ""
+
+#: ../../Development/2_build.rst:420
+msgid "*key* - generate build key pair for signing firmware tarball and packages"
+msgstr ""
+
+#: ../../Development/2_build.rst:423
+msgid "Some commands have special parameters which are mapped to the default *YAML* configuration file. The CLI parameters have the highest priority and cannot be overridden by local configuration files."
+msgstr ""
+
+#: ../../Development/2_build.rst:429
+msgid "Remote Repositories Configuration"
+msgstr ""
+
+#: ../../Development/2_build.rst:431
+msgid "The list of all remote repositories for fetching by the braiins build system is specified in the *remote* attribute in the *YAML* configuration file. The use of all parameters are shown in the following example:"
+msgstr ""
+
+#: ../../Development/2_build.rst:468
+msgid "Below is a short description of supported parameters:"
+msgstr ""
+
+#: ../../Development/2_build.rst:470
+msgid "*aliases* - the list of URI with symbolic name which must be used in location parameter"
+msgstr ""
+
+#: ../../Development/2_build.rst:472
+msgid "*location* - the alias which represents URI of remote location (this parameter can be omitted when default location is set)"
+msgstr ""
+
+#: ../../Development/2_build.rst:474
+msgid "*project* - the name of remote repository (it is concatenated with the location URI)"
+msgstr ""
+
+#: ../../Development/2_build.rst:476
+msgid "*branch* - the name of branch (this parameter can be omitted when default branch is set)"
+msgstr ""
+
+#: ../../Development/2_build.rst:478
+msgid "*match* - special syntax for platform specific configuration (the selection is based on pattern with platform prefix - the longest prefix is chosen for the current platform)"
+msgstr ""
+
+#: ../../Development/2_build.rst:484
+msgid "Packages"
+msgstr ""
+
+#: ../../Development/2_build.rst:486
+msgid "The standard OpenWrt menuconfig is used for firmware image configuration. When some changes are detected, the difference in configuration is saved to the file specified in *YAML* configuration file under *build.config* attribute."
+msgstr ""
+
+#: ../../Development/2_build.rst:496
+msgid "Multiple firmware images are being built at once (NAND, NAND Recovery, SD, ...). We must be specify which image will contain a particular package. It is done in two ways:"
+msgstr ""
+
+#: ../../Development/2_build.rst:500
+msgid "When a package is installed to all images without exception then only OpenWrt menuconfig is used where the package must be selected by asterisk symbol ``<*>``"
+msgstr ""
+
+#: ../../Development/2_build.rst:503
+msgid "When a package is installed only to specific images then the package must be selected as a module ``<M>`` and added to an external package list specified in a *build.packages* attribute."
+msgstr ""
+
+#: ../../Development/2_build.rst:507
+msgid "The package file is just another YAML structured format that stores lists with inheritance support. The lists with *image\\_* prefix are used for description of installed packages in specified image:"
+msgstr ""
+
+#: ../../Development/2_build.rst:511
+msgid "*image\\_sd* - SD image with extroot support (second partition in the ext4 format is used as an overlay)"
+msgstr ""
+
+#: ../../Development/2_build.rst:513
+msgid "*image\\_nand* - standard NAND image"
+msgstr ""
+
+#: ../../Development/2_build.rst:514
+msgid "*image\\_recovery* - special NAND recovery image (it also supports factory reset)"
+msgstr ""
+
+#: ../../Development/2_build.rst:516
+msgid "*image\\_upgrade* - NAND image for generic stage1 upgrade process from different firmwares"
+msgstr ""
+
+#: ../../Development/2_build.rst:519
+msgid "The structured list has the following format:"
+msgstr ""
+
+#: ../../Development/2_build.rst:537
+msgid "Kernel"
+msgstr ""
+
+#: ../../Development/2_build.rst:539
+msgid "The *config* command can also be used for the Linux configuration when *--kernel* parameter is specified. The resulting configuration is then saved in the OpenWrt build system in the target directory. It is standard behavior of the OpenWrt."
+msgstr ""
+
+#: ../../Development/2_build.rst:553
+msgid "Deployment"
+msgstr ""
+
+#: ../../Development/2_build.rst:555
+msgid "Whenever firmware images are built by the OpenWrt build system, it is possible to deploy them over ssh connection directly to the running machine (when it runs compatible firmware) or store it to a local path. The default configuration builds all local targets and stores its result to predefined location **output**/*<platform>*. It is convenient for testing when we want to verify all possible targets. However, for real deployment, it is more useful to specify a target from the command line."
+msgstr ""
+
+#: ../../Development/2_build.rst:565
+msgid "System Upgrade vs. Deployment"
+msgstr ""
+
+#: ../../Development/2_build.rst:567
+msgid "*Do not confuse the deployment process with the system upgrade!* The deployment is used mainly for developers for testing the firmware on running devices or for initial factory NAND programming. For a system upgrade, use standard firmware tarball which can be loaded with the help of a web interface or with the OpenWrt *sysupgrade* utility. Follow the `user manual <docs/user-manual>`__ for standard firmware upgrade procedure"
+msgstr ""
+
+#: ../../Development/2_build.rst:584
+msgid "Remote Targets"
+msgstr ""
+
+#: ../../Development/2_build.rst:586
+msgid "Only commonly used remote targets will be described here. Special targets - useful during development of specific firmware parts - will be omitted. With remote targets, it is possible to deploy either NAND image or SD image (in case that the SD card is inserted into the SD slot). The NAND image can be deployed even if the braiins OS is run from NAND and a UBI partition is mounted. The following targets are supported:"
+msgstr ""
+
+#: ../../Development/2_build.rst:593
+msgid "*sd* - writes U-Boot and Linux image with a *SquashFS* root file system to the SD card"
+msgstr ""
+
+#: ../../Development/2_build.rst:595
+msgid "*nand* - writes U-Boot and UBI image with the Linux kernel and a *SquashFS* root file system to the NAND (the writable overlay uses a *UBIFS* file system)"
+msgstr ""
+
+#: ../../Development/2_build.rst:599
+msgid "Let's assume local network with one instance running braiins/OpenWrt firmware and default configuration of the build system. The following command can be used for deployment of SD or NAND image to this machine:"
+msgstr ""
+
+#: ../../Development/2_build.rst:611
+msgid "When more than one device needs to be managed, several arguments can be used to specify remote machine. It can be done only by machine's MAC address specification or even with a hostname when local DNS server does not work correctly or when the MAC address does not correspond with the hostname."
+msgstr ""
+
+#: ../../Development/2_build.rst:617
+msgid "*Be very cautious with MAC address!* If the *--mac* parameter is omitted, the default MAC address from configuration file is used (``00:0A:35:FF:FF:FF``) and remote machine is upgraded with it. Therefore, it is recommended to use hostname only in situations when devices MAC address needs to be changed."
+msgstr ""
+
+#: ../../Development/2_build.rst:623
+msgid "The hostname is determined from MAC address when not specified. The machine generates its name based on current MAC in a form of ``{MACHINE_CLASS}-xxyyzz`` where ``MACHINE_CLASS`` is e.g. ``miner`` and ``xxyyzz`` are last three numbers from its address."
+msgstr ""
+
+#: ../../Development/2_build.rst:637
+msgid "There are also special configuration sub-targets which modify only bOS configuration and do not touch other parts of the NAND or SD partition:"
+msgstr ""
+
+#: ../../Development/2_build.rst:640
+msgid "*sd\\_config* - modify only *uEnv.txt* file on SD card which is read by the U-Boot"
+msgstr ""
+
+#: ../../Development/2_build.rst:642
+msgid "*nand\\_config* - modify only NAND U-Boot environment and bOS configuration partition"
+msgstr ""
+
+#: ../../Development/2_build.rst:647
+msgid "Local Targets"
+msgstr ""
+
+#: ../../Development/2_build.rst:649
+msgid "Local targets can be used for deploying images to locations specified by a file path. The default configuration enables all local targets for storing all images to a predefined directory **output**/*<platform>*. There are also special local targets for deployment utilities used for upgrading the original firmware to the braiins/OpenWrt one. The other special target is for a feeds server preparation used for upgrading braiins/OpenWrt firmware with a standard OpenWrt *opkg* utility. The following list specifies main local targets:"
+msgstr ""
+
+#: ../../Development/2_build.rst:658
+msgid "*local\\_sd* - the same function as remote target but target is specified by a local file path"
+msgstr ""
+
+#: ../../Development/2_build.rst:660
+msgid "*local\\_sd\\_recovery* - writes special SD recovery image to a local file path (e.g. it can be used for repairing a 'bricked' machine that doesn't boot from its flash memory anymore)"
+msgstr ""
+
+#: ../../Development/2_build.rst:663
+msgid "*local\\_upgrade* - various images needed for upgrading an original firmware for target platform"
+msgstr ""
+
+#: ../../Development/2_build.rst:665
+msgid "*local\\_feeds* - sysupgrade tarball with current firmware and packages needed for creating standard OpenWrt feeds server"
+msgstr ""
+
+#: ../../Development/2_build.rst:668
+msgid "Similarly to the remote targets there are also *configuration* targets:"
+msgstr ""
+
+#: ../../Development/2_build.rst:670
+msgid "*local\\_sd\\_config* - modify only *uEnv.txt* file (useful for changing parameter *sd\\_boot*)"
+msgstr ""
+
+#: ../../Development/2_build.rst:672
+msgid "*local\\_sd\\_recovery\\_config* - modify only *uEnv.txt* file (useful for changing parameters *sd\\_boot*, *factory\\_reset* and *sd\\_images* controlling SD recovery image for factory reset)"
+msgstr ""
+
+#: ../../Development/2_build.rst:676
+msgid "The output location is usually specified by the command line. Since more than one target can by specified at once there is special notation for passing local file path to the specific local target:"
+msgstr ""
+
+#: ../../Development/2_build.rst:684
+msgid "Device MAC address can also be specified with *--mac* parameter. However, it is only used for generating the *uEnv.txt*. This MAC address is used when booting the device from an SD card. The *--hostname* parameter is ignored for local targets. There are several useful parameters for bOS configuration which will be described in the next section."
+msgstr ""
+
+#: ../../Development/2_build.rst:691
+msgid "Below are a few typical examples of *deploy* command for local targets:"
+msgstr ""
+
+#: ../../Development/2_build.rst:711
+msgid "uEnv"
+msgstr ""
+
+#: ../../Development/2_build.rst:713
+msgid "When U-Boot finds inserted SD card it tries to load a file *uEnv.txt* from its first partition formatted with FAT file system. There are environment variables which can alter U-Boot behavior during boot process. There are standard U-Boot variables (e.g. ethaddr) and some additional ones are provided by braiins/OpenWrt firmware. Configuration of these variables can be done in the braiins build system YAML file in *uenv* section. These parameters can also be passed by command line argument *--uenv*. The following list shows all supported settings:"
+msgstr ""
+
+#: ../../Development/2_build.rst:722
+msgid "*mac* - set device MAC address (generates *ethaddr* variable)"
+msgstr ""
+
+#: ../../Development/2_build.rst:723
+msgid "*factory\\_reset* - when SD has this variable enabled and is inserted into the device, the device performs factory reset"
+msgstr ""
+
+#: ../../Development/2_build.rst:725
+msgid "*sd\\_images* - used for factory reset images from SD (*factory\\_reset* must also be enable)"
+msgstr ""
+
+#: ../../Development/2_build.rst:727
+msgid "*sd\\_boot* - boot kernel image from SD (the U-Boot is still booted from the NAND)"
+msgstr ""
+
+#: ../../Development/2_build.rst:730
+msgid "The *sd\\_boot* requires compatible and functional U-Boot on NAND. When the NAND is corrupted it may not work. In that case a HW jumper must be used for a miner control board reconfiguration. E.g. *J2* pins must be bridged on G9/G19 boards to change boot mode from NAND to SD card."
+msgstr ""
+
+#: ../../Development/2_build.rst:737
+msgid "Default Pool"
+msgstr ""
+
+#: ../../Development/2_build.rst:739
+msgid "Each miner with the same firmware can store different default pool. The information is stored in a miner configuration partition in the NAND. For SD version this functionality is not currently supported. The default pool can be changed from command line with corresponding arguments of deploy command. However, these arguments have effect only for remote targets and for special local targets for an original firmware upgrade. The deploy command supports the following arguments:"
+msgstr ""
+
+#: ../../Development/2_build.rst:747
+msgid "*pool-url* - the address of pool server in a format *<host>[:<port>]*\\  (*stratum+tcp://stratum.slushpool.com:3333*)"
+msgstr ""
+
+#: ../../Development/2_build.rst:749
+msgid "*pool-user* - the name of user and worker (*braiinstest.worker1*)"
+msgstr ""
+
+#: ../../Development/2_build.rst:753
+msgid "Release Management"
+msgstr ""
+
+#: ../../Development/2_build.rst:755
+msgid "The braiins build system also has tools for firmware versioning which is used in release cycles. It is based on git repository with tags which holds name of a firmware version and configuration for reproducible firmware build. The release cycle has three stages:"
+msgstr ""
+
+#: ../../Development/2_build.rst:760
+msgid "new version creation,"
+msgstr ""
+
+#: ../../Development/2_build.rst:761
+msgid "signed firmware building,"
+msgstr ""
+
+#: ../../Development/2_build.rst:762
+msgid "publication."
+msgstr ""
+
+#: ../../Development/2_build.rst:766
+msgid "Versioning"
+msgstr ""
+
+#: ../../Development/2_build.rst:768
+msgid "The first stage is about git branch creation, modification of default configuration file where each repository points to specific commit and tag creation with a name representing current firmware version. All this can be done by one command with a name *release*. This command requires that the braiins build system repository and all dependent repositories are clean. After successful call of this command, a *remote* tag is created with the following version format:"
+msgstr ""
+
+#: ../../Development/2_build.rst:780
+msgid "The ``<YYYY-MM-DD>`` represents a *date* of the braiins build system *commit* from which is a release created. The value of the ``<patch_level>`` is usually 0 and is incremented only in situation when more then one release is created in one day. This increment is done automatically and depends on correctly created git tags. The ``<short_sha>`` is a SHA prefix of the *commit* used for the date. The prefix is 8 characters long."
+msgstr ""
+
+#: ../../Development/2_build.rst:788
+msgid "The *release* command has also *--include* argument which is used for specification of a firmware tarball content. In a special situation that a new firmware needs to upgrade also a U-Boot or a FPGA bitstream. Occasionally, a bash script (*COMMAND*) can also be added. It is run before in pre-init phase of the standard system upgrade process. It can contain some control checks or fixes of previous firmware running on a device. The source code of this script is stored in the OpenWrt repository but must be configured externally that it is included to the output image. The following list contains all sysupgrade components supported by the firmware:"
+msgstr ""
+
+#: ../../Development/2_build.rst:799
+msgid "*command* - bash script executed during firmware system upgrade"
+msgstr ""
+
+#: ../../Development/2_build.rst:800
+msgid "*uboot* - the U-Boot image for upgrading previous one (it can brick the device)"
+msgstr ""
+
+#: ../../Development/2_build.rst:802
+msgid "*fpga* - the FPGA bitstream (the device has auto recovery process which can rescue a device when the new bitstream does not work)"
+msgstr ""
+
+#: ../../Development/2_build.rst:815
+msgid "Building and Signing"
+msgstr ""
+
+#: ../../Development/2_build.rst:817
+msgid "The official firmware is signed with publisher key which should be private. Only one key should exist and be stored in some secured keyring. The key can be generated by the braiins build system with the following command:"
+msgstr ""
+
+#: ../../Development/2_build.rst:827
+msgid "This command generates private and public key into the specified path. Where the private key is to be securely stored is beyond the scope of this description. This key is usually generated only once and is used for signing of all the releases firmwares."
+msgstr ""
+
+#: ../../Development/2_build.rst:832
+msgid "After the release has been created with the *release* command, it can be built and signed with the following command:"
+msgstr ""
+
+#: ../../Development/2_build.rst:842
+msgid "If everything goes well, all images are prepared for final publishing to the feeds server. This process can be reproduced anytime in the future."
+msgstr ""
+
+#: ../../Development/2_build.rst:847
+msgid "Feeds Server"
+msgstr ""
+
+#: ../../Development/2_build.rst:849
+msgid "The final stage of release management is publishing to the feeds server. It is standard OpenWrt feeds server with the *Packages.gz* file containing list of *ipk* packages in a text format. All files needed for this feed server can be created by *deploy* command with *local\\_feeds* target:"
+msgstr ""
+
+#: ../../Development/2_build.rst:863
+msgid "The output directory should be empty before calling deploy command to ensure that the directory would not contain any temporary files. If feeds server contains previous firmwares too the *--feeds-base* should be called to merge previous *Packages* index file with new firmware. The previous *Packages* index file can also be edited before new deployment to prune some old firmwares from the server."
+msgstr ""
+
+#: ../../Development/2_build.rst:870
+msgid "All generated files are described in the following list:"
+msgstr ""
+
+#: ../../Development/2_build.rst:872
+msgid "**firmware\\_<version>.tar** - signed tarball with all images for device system upgrade compatible with *sysupgrade* utility or LuCI web interface (this file can be used directly without *OPKG* utility)"
+msgstr ""
+
+#: ../../Development/2_build.rst:875
+msgid "**firmware\\_<version>.ipk** - standard *OPKG* package with firmware metadata used for installing new firmware (it downloads corresponding *firmware\\_<version>.tar* from feeds server and initiate system upgrade)"
+msgstr ""
+
+#: ../../Development/2_build.rst:879
+msgid "**Packages** - feeds index file with a list of all packages in a text form (it contains references to *firmware\\_<version>.tar*)"
+msgstr ""
+
+#: ../../Development/2_build.rst:881
+msgid "**Packages.gz** - gzipped *Packages* file"
+msgstr ""
+
+#: ../../Development/2_build.rst:882
+msgid "**Packages.sig** - the file that contains signature for *Packages.gz*"
+msgstr ""
+
+#: ../../Development/2_build.rst:886
+msgid "Upgrade from Original/Factory Firmware"
+msgstr ""
+
+#: ../../Development/2_build.rst:888
+msgid "The example below for Dragon Mint DM1 shows how to upgrade the factory firmware to braiins OS firmware:"
+msgstr ""
+
+#: ../../Development/2_build.rst:904
+msgid "There are two versions of original firmware. Therefore, an appropriate deploy target must to be used:"
+msgstr ""
+
+#: ../../Development/2_build.rst:907
+msgid "*braiins-os\\_dm1-g19\\_telnet\\_<version>* - initial release of the firmware that had only *telnet* server for remote access"
+msgstr ""
+
+#: ../../Development/2_build.rst:909
+msgid "*braiins-os\\_dm1-g19\\_ssh\\_<version>* - improved release of the firmware that had *ssh* server instead"
+msgstr ""
+
+#: ../../Development/2_build.rst:912
+msgid "You have to get login information for *root* access over *telnet* (v1) or *ssh* (v2) for your DragonMint miner before you start the upgrade process. Without this information you have to open your miner and use SD version for boot and deploy this firmware with the braiins build *deploy* command with *nand* target."
+msgstr ""
+
+#: ../../Development/2_build.rst:920
+msgid "Authors"
+msgstr ""
+
+#: ../../Development/2_build.rst:922
+msgid "**Libor Vašíček** - *Initial work*"
+msgstr ""
+
+#: ../../Development/2_build.rst:926
+msgid "License"
+msgstr ""
+
+#: ../../Development/2_build.rst:928
+msgid "It is released under the GNU General Public License v3.0 (`GNU GPLv3 <https://choosealicense.com/licenses/gpl-3.0/>`__)."
+msgstr ""
+
+#: ../../Development/2_build.rst:931
+msgid "See LICENSE file."
+msgstr ""

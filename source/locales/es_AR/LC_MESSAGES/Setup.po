@@ -1,0 +1,1972 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, braiins
+# This file is distributed under the same license as the doctest package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: doctest \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-26 10:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Setup/1_quickstart.rst:3
+msgid "Quick Start"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:21 ../../Setup/2_advanced.rst:25
+msgid "Install Braiins OS+"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:25
+msgid "Running stock firmware released before 2019"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:27
+msgid "**GUI BOS+ Toolbox installation**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:33
+msgid "**Single device installation**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:39
+msgid ""
+"You can easily install Braiins OS+ via the web interface upgrade process."
+" In order to do so, follow the steps bellow:"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:41
+msgid ""
+"Download the **Web Package** from our `website <https://braiins-"
+"os.com/plus/download/>`_."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:42
+msgid "Login on your miner and go to the section *System -> Upgrade*."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:43 ../../Setup/2_advanced.rst:449
+msgid "Upload the downloaded package and flash the image."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:45 ../../Setup/1_quickstart.rst:60
+msgid ""
+"Braiins OS+ will be installed on the miner. The network configuration "
+"(e.g. Static IP address) and the pool and user settings will be "
+"automatically migrated to Braiins OS+ and autotuning will be turned on."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:47
+msgid "**Multiple-device installation**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:53
+msgid ""
+"Installation of Braiins OS+ can easily be done using the BOS Toolbox. In "
+"order to do so, follow the steps bellow:"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:55 ../../Setup/1_quickstart.rst:78
+#: ../../Setup/2_advanced.rst:128
+msgid ""
+"Download **BOS Toolbox** from our `website <https://braiins-"
+"os.com/plus/download/>`_."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:56
+msgid ""
+"Create a new text file, change the \".txt\" ending to \".csv\" and insert"
+" the IP addresses on which you want execute the commands. Use only one IP"
+" address per line!"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:57 ../../Setup/1_quickstart.rst:80
+#: ../../Setup/1_quickstart.rst:134 ../../Setup/1_quickstart.rst:150
+#: ../../Setup/1_quickstart.rst:163 ../../Setup/2_advanced.rst:209
+#: ../../Setup/2_advanced.rst:246 ../../Setup/2_advanced.rst:296
+#: ../../Setup/2_advanced.rst:332 ../../Setup/2_advanced.rst:354
+#: ../../Setup/2_advanced.rst:389
+msgid ""
+"Once you have downloaded BOS Toolbox, run it by double-clicking (Windows)"
+" or by running ``./bos-toolbox`` in command-line interpreter (Linux)."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:58 ../../Setup/2_advanced.rst:131
+msgid ""
+"In the **Install** section, fill the **Miner(s)** option by selecting the"
+" created text file and press **Start**."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:62
+msgid ""
+"For more information about this process, and for more options visit the "
+"sections :ref:`bosbox` and :ref:`bosbox_install`."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:64
+msgid ""
+"Braiins OS+ is also supported by BTC Tools - batch management tool for "
+"miners. BTC Tools for Windows/Linux can be downloaded here `here "
+"<https://btccom.zendesk.com/hc/en-us/articles/360020105012>`_. On the "
+"same page, documenation on how to use BTC Tools is available."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:68
+msgid "Running stock firmware released in 2019 or later"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:70
+msgid "**(Antminer S9 only) Unlock SSH and install using BOS Toolbox**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:76
+msgid ""
+"In 2019, the SSH connection was locked and the signature verification in "
+"the web interface prevents the usage of 3rd party firmwares. In order to "
+"install Braiins OS+ on machines with locked SSH, follow the steps bellow:"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:79
+msgid ""
+"Create a new text file, change the \".txt\" ending to \".csv\" and insert"
+" the IP addresses on which you want execute the commands. Put that file "
+"in the directory where the BOS Toolbox is located. Use only one IP "
+"address per line!"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:81
+msgid ""
+"In the **Install** section, fill the **Miner(s)** option by selecting the"
+" created text file, fill the **Password** field with your password and "
+"press **Start**."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:83
+msgid ""
+"Braiins OS will be installed on the miner. The network configuration "
+"(e.g. Static IP address) and the pool and user settings will be "
+"automatically migrated to Braiins OS."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:85
+msgid "**SD method**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:87
+msgid ""
+"If you are running stock firmware that was released in 2019 and later, "
+"the only way to install Braiins OS+ is to insert an SD card with Braiins "
+"OS+ flashed on it. In 2019, the SSH connection was locked and the "
+"signature verification in the web interface prevents the usage of 3rd "
+"party firmwares."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:89
+msgid ""
+"In order to install Braiins OS+ via the SD card method, follow the steps "
+"bellow:"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:91
+msgid ""
+"Download the SD card image from our `website <https://braiins-"
+"os.com/plus/download/>`_."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:92 ../../Setup/2_advanced.rst:484
+msgid ""
+"Flash the downloaded image on an SD card (e.g. using `Etcher "
+"<https://etcher.io/>`_). *Note: Simple copy to SD card will not work. The"
+" SD card has to be flashed!*"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:93 ../../Setup/2_advanced.rst:485
+msgid ""
+"**(Antminer S9 only)** Adjust the jumpers to boot from SD card (instead "
+"of NAND memory), as shown below."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:95 ../../Setup/2_advanced.rst:487
+msgid "S9 Jumpers"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:99 ../../Setup/2_advanced.rst:491
+msgid "S9 Jumpers Board"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:103 ../../Setup/2_advanced.rst:495
+msgid "|pic1|  |pic2|"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:105 ../../Setup/2_advanced.rst:497
+msgid "Insert the SD card into the device, then start the device."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:106 ../../Setup/2_advanced.rst:498
+msgid ""
+"If the auto-install version of SD image was used, the system will be "
+"automatically installed to the internal memory (NAND). The installation "
+"is completed, once both LEDs start to blink at the same time. After the "
+"installation completes, remove the SD card to boot Braiins OS+ from the "
+"NAND."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:107 ../../Setup/2_advanced.rst:499
+msgid ""
+"After a moment, you should be able to access the Braiins OS+ interface "
+"through the device’s IP address."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:109
+msgid ""
+"For more information about this process, and for more options visit the "
+"sections :ref:`sd` and :ref:`sd_install`."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:113 ../../Setup/2_advanced.rst:37
+msgid "Update Braiins OS+"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:115
+msgid "**Single device update**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:117
+msgid ""
+"The firmware periodically checks for availability of a new version. In "
+"case of a new version being available a blue **Upgrade** button appears "
+"in the web interface, on the right side of the top bar. Proceed to click "
+"on the button and confirm to start the upgrade."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:122
+msgid ""
+"Alternatively, you can update the repository information manually by "
+"clicking the *Update lists* button in the System > Software menu. In case"
+" the button is missing, try to refresh the page. To trigger the upgrade "
+"process, type ``firmware`` into the *Download and install package* field "
+"and press *OK*."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:128
+msgid "**Multiple device update**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:130
+msgid ""
+"Updating Braiins OS+ on multiple devices at once can easily be done using"
+" the **BOS Toolbox**. In order to do so, follow the steps bellow:"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:132 ../../Setup/1_quickstart.rst:149
+#: ../../Setup/1_quickstart.rst:161 ../../Setup/2_advanced.rst:175
+#: ../../Setup/2_advanced.rst:207 ../../Setup/2_advanced.rst:244
+#: ../../Setup/2_advanced.rst:294 ../../Setup/2_advanced.rst:330
+#: ../../Setup/2_advanced.rst:352 ../../Setup/2_advanced.rst:387
+msgid ""
+"Download the **BOS Toolbox** from our `website <https://braiins-"
+"os.com/plus/download/>`_."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:133
+msgid ""
+"Create a new text file, change the \".txt\" ending to \".csv\" and insert"
+" the IP addresses on which you want execute the commands. Use only one IP"
+" address per line! Put that file in the directory where the BOS Toolbox "
+"is located."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:135 ../../Setup/2_advanced.rst:178
+msgid ""
+"In the **Update** section, fill the **Miner(s)** option by selecting the "
+"created text file and press **Start**."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:137
+msgid ""
+"This command will look for an update for the miners that are specified in"
+" the created text file and update them if there is a new version of "
+"firmware."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:139
+msgid ""
+"For more information about this process, and for more options visit the "
+"sections :ref:`bosbox` and :ref:`bosbox_update`."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:143 ../../Setup/2_advanced.rst:62
+msgid "Uninstall Braiins OS+"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:145
+msgid "**Single device uninstallation**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:147
+msgid ""
+"You can easily uninstall Braiins OS+ on a single device using the **BOS "
+"Toolbox**. In order to do so, follow the steps bellow:"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:151
+msgid ""
+"In the **Uninstall** section, fill the **Miner(s)** option with the IP "
+"address of the miner and press **Start**."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:153 ../../Setup/1_quickstart.rst:166
+msgid ""
+"This will revert back to stock firmware. It will automatically install an"
+" older version where the SSH was not locked, so you can access your miner"
+" remotely."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:155 ../../Setup/1_quickstart.rst:168
+#: ../../Setup/2_advanced.rst:233
+msgid ""
+"**Warning:** The stock firmware that's installed when you uninstall "
+"Braiins OS+ is not suitable for mining! Upgrade to a newer version of "
+"stock firmware for your specific hardware model before you start mining."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:157
+msgid "**Multiple device uninstallation**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:159
+msgid ""
+"You can easily uninstall Braiins OS+ on multiple devices using the **BOS "
+"Toolbox**. In order to do so, follow the steps below:"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:162
+msgid ""
+"Create a new text file in your text editor and insert the IP addresses on"
+" which you want execute the commands. Use only one IP address per line! "
+"(Note that you can find the IP address in the Braiins OS+ web interface "
+"by going to *Status -> Overview*.) Then save the file in the same "
+"directory as you saved the BOS Toolbox and change the \".txt\" ending to "
+"\".csv\"."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:164 ../../Setup/2_advanced.rst:210
+msgid ""
+"In the **Uninstall** section, fill the **Miner(s)** option by selecting "
+"the created text file and press **Start**."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:170
+msgid ""
+"For more information about this process, and for more options visit the "
+"sections :ref:`bosbox` and :ref:`bosbox_uninstall`."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:174
+msgid "Configure Braiins OS+"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:176
+msgid "**Single device configuration**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:182
+msgid ""
+"You can configure Braiins OS+ on single device using the **web "
+"interface** of the miner or directly in the configuration file located in"
+" **/etc/bosminer.toml** (for more information, visit the "
+":ref:`configuration` section)."
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:184
+msgid "**Multiple device configuration**"
+msgstr ""
+
+#: ../../Setup/1_quickstart.rst:190
+msgid ""
+"You can easily configure Braiins OS+ on multiple devices using the **BOS "
+"Toolbox**. In order to do so, follow the steps in the section "
+":ref:`bosbox_configure`."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:3
+msgid "Advanced Guide"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:21
+msgid "Road map"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:23
+msgid ""
+"There are many tools, packages, and scripts that can be used to manage "
+"Braiins OS+. For better navigation, use the following tree:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:27
+msgid "Using BOS Toolbox (:ref:`bosbox_install`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:28
+msgid "Using web package (:ref:`web_package_install`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:29
+msgid "Using SD card (:ref:`sd_install`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:30
+msgid "Using SD card and miner tool (:ref:`miner_nand_install`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:31
+msgid "Using SSH scripts (:ref:`ssh_package_install`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:33
+msgid "Unlock SSH on Antminer S9"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:35
+msgid "Using BOS Toolbox (:ref:`bosbox_unlock`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:39
+msgid "Using BOS Toolbox (:ref:`bosbox_update`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:40
+msgid "Using OPKG (:ref:`opkg_update`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:41 ../../Setup/2_advanced.rst:52
+msgid "Using sysupgrade package (:ref:`sysupgrade_switch_braiinsplus`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:42 ../../Setup/2_advanced.rst:47
+#: ../../Setup/2_advanced.rst:53 ../../Setup/2_advanced.rst:60
+msgid "Using bos2bos script (:ref:`bos2bos`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:44
+msgid "Switching to Braiins OS (version without autotuning)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:46
+msgid "Using sysupgrade package (:ref:`sysupgrade_switch_braiinsos`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:49
+msgid "Switching to Braiins OS+ (version with autotuning)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:51
+msgid "Using OPKG (:ref:`opkg_switch_to_braiinsplus`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:55
+msgid ""
+"Reset to initial Braiins OS version (version, which was installed for the"
+" first time on device) - factory reset"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:57
+msgid "Using OPKG (:ref:`opkg_factory_reset`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:58
+msgid "Using SD card (:ref:`sd_factory_reset`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:59
+msgid "Using \"miner\" tool (:ref:`miner_factory_reset`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:64
+msgid "Using BOS Toolbox (:ref:`bosbox_uninstall`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:65
+msgid "Using SSH scripts (:ref:`ssh_package_uninstall`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:67
+msgid "Turn on/off Nightly feeds"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:69
+msgid "Using \"miner\" tool (:ref:`miner_nightly`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:71
+msgid "Turn on/off auto-upgrade"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:73
+msgid "Using \"miner\" tool (:ref:`miner_autoupgrade`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:75
+msgid "Run custom shell commands on the miner"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:77
+msgid "Using BOS Toolbox (:ref:`bosbox_command`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:79 ../../Setup/2_advanced.rst:292
+msgid "Scan the network to identify miners using BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:81
+msgid "Using BOS Toolbox (:ref:`bosbox_scan`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:83 ../../Setup/2_advanced.rst:328
+msgid "Listen for incoming broadcast from devices using BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:85
+msgid "Using BOS Toolbox (:ref:`bosbox_listen`)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:91
+msgid "BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:93
+msgid ""
+"BOS Toolbox is a new tool that allows users to easily install, uninstall,"
+" update, detect, configure Braiins OS and run custom commands on the "
+"device. It also enables commands to be executed in batch mode, which "
+"makes the management of a larger number of devices easier. BOS Toolbox "
+"also automatically download the latest firmware. This is the recommended "
+"way to manage your machines."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:97 ../../Setup/2_advanced.rst:423
+#: ../../Setup/2_advanced.rst:461 ../../Setup/2_advanced.rst:554
+#: ../../Setup/2_advanced.rst:798 ../../Setup/2_advanced.rst:885
+msgid "Usage"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:99
+msgid ""
+"Download the **BOS Toolbox** from our `website <https://braiins-"
+"os.com/>`_."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:100 ../../Setup/2_advanced.rst:129
+#: ../../Setup/2_advanced.rst:176 ../../Setup/2_advanced.rst:388
+msgid ""
+"Create a new text file, change the \".txt\" ending to \".csv\" and insert"
+" the IP addresses on which you want execute the commands. Put that file "
+"in the directory where the BOS Toolbox is located. **Use only one IP "
+"address per line!**"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:101 ../../Setup/2_advanced.rst:426
+#: ../../Setup/2_advanced.rst:464 ../../Setup/2_advanced.rst:557
+msgid "Follow the sections bellow"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:105 ../../Setup/2_advanced.rst:430
+#: ../../Setup/2_advanced.rst:468 ../../Setup/2_advanced.rst:561
+#: ../../Setup/2_advanced.rst:725 ../../Setup/2_advanced.rst:810
+#: ../../Setup/2_advanced.rst:875
+msgid "Features, PROs and CONs of this method:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:107
+msgid ""
+"installs Braiins OS+ remotely and automatically unlocks SSH on Antminer "
+"S9 during the installation"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:108
+msgid "updates Braiins OS+ remotely"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:109 ../../Setup/2_advanced.rst:564
+msgid "uninstalls Braiins OS+ remotely"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:110
+msgid "configures Braiins OS+ remotely"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:111
+msgid "runs custom commands on machines"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:112
+msgid "scans the network for machines"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:113 ../../Setup/2_advanced.rst:565
+msgid ""
+"migrates the whole configuration by default (can be adjusted) when "
+"installing Braiins OS+"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:114 ../../Setup/2_advanced.rst:566
+msgid ""
+"migrates the network configuration by default (can be adjusted) when "
+"uninstalling Braiins OS+"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:115 ../../Setup/2_advanced.rst:567
+#: ../../Setup/2_advanced.rst:814 ../../Setup/2_advanced.rst:879
+msgid "parameters are available to customize the process"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:116 ../../Setup/2_advanced.rst:568
+msgid "turns on autotuning on default power limit when installing Braiins OS+"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:117
+msgid "batch mode available to manage multiple devices at once"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:118
+msgid "easy to use"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:120
+msgid "does not work on X17 devices with locked SSH"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:126
+msgid "Install Braiins OS+ using BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:130 ../../Setup/2_advanced.rst:177
+msgid ""
+"Once you have downloaded BOS Toolbox, run it in GUI mode by double-"
+"clicking (Windows) or by running ``./bos-toolbox`` in command-line "
+"interpreter (Linux)."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:133 ../../Setup/2_advanced.rst:180
+#: ../../Setup/2_advanced.rst:212 ../../Setup/2_advanced.rst:263
+#: ../../Setup/2_advanced.rst:299 ../../Setup/2_advanced.rst:335
+#: ../../Setup/2_advanced.rst:357 ../../Setup/2_advanced.rst:392
+msgid "You can use the following **arguments** to adjust the process:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:136 ../../Setup/2_advanced.rst:183
+#: ../../Setup/2_advanced.rst:215 ../../Setup/2_advanced.rst:266
+#: ../../Setup/2_advanced.rst:302 ../../Setup/2_advanced.rst:338
+#: ../../Setup/2_advanced.rst:360 ../../Setup/2_advanced.rst:395
+msgid "GUI Options"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:136
+msgid "Command line arguments"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:136 ../../Setup/2_advanced.rst:183
+#: ../../Setup/2_advanced.rst:215 ../../Setup/2_advanced.rst:252
+#: ../../Setup/2_advanced.rst:266 ../../Setup/2_advanced.rst:302
+#: ../../Setup/2_advanced.rst:338 ../../Setup/2_advanced.rst:360
+#: ../../Setup/2_advanced.rst:395
+msgid "Description"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:138 ../../Setup/2_advanced.rst:186
+#: ../../Setup/2_advanced.rst:217 ../../Setup/2_advanced.rst:269
+#: ../../Setup/2_advanced.rst:304 ../../Setup/2_advanced.rst:364
+#: ../../Setup/2_advanced.rst:398
+msgid "Password"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:138 ../../Setup/2_advanced.rst:186
+#: ../../Setup/2_advanced.rst:217 ../../Setup/2_advanced.rst:269
+#: ../../Setup/2_advanced.rst:304 ../../Setup/2_advanced.rst:364
+#: ../../Setup/2_advanced.rst:398
+msgid "-p PASSWORD, --password PASSWORD"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:138 ../../Setup/2_advanced.rst:186
+#: ../../Setup/2_advanced.rst:217 ../../Setup/2_advanced.rst:269
+#: ../../Setup/2_advanced.rst:304 ../../Setup/2_advanced.rst:364
+msgid "Administration password"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:139 ../../Setup/2_advanced.rst:187
+msgid "Farm-ID"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:139 ../../Setup/2_advanced.rst:187
+msgid "--bos-mgmt-id [BOS_MGMT_ID]"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:139 ../../Setup/2_advanced.rst:187
+msgid "Set Braiins OS+ Manager identifier"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:140
+msgid "Set Power limit"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:140
+msgid "--psu-power-limit [PSU_POWER_LIMIT]"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:140
+msgid "Set PSU power limit (in Watts)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:141
+msgid "Set Pool user"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:141
+msgid "--pool-user [POOL_USER]"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:141
+msgid "Set the username and workername for Slush Pool"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:142
+msgid "Latest Stable release"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:142 ../../Setup/2_advanced.rst:149
+#: ../../Setup/2_advanced.rst:218
+msgid "*N/A* - Default Option"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:142
+msgid "Selected by default, recommended option"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:143
+msgid "Open-Source version"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:143
+msgid "--open-source"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:143
+msgid ""
+"Use for installation of the Open-Source version (exclusive with "
+"**nightly** and **feed-url**)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:144
+msgid "Nightly version"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:144
+msgid "--nightly"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:144
+msgid ""
+"Use for installation of the Nightly version (exclusive with **open-"
+"source** and **feed-url**)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:145 ../../Setup/2_advanced.rst:219
+msgid "Custom Feeds-URL"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:145 ../../Setup/2_advanced.rst:219
+msgid "--feeds-url [FEEDS_URL]"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:145
+msgid ""
+"Override default feeds server URL (exclusive with **open-source** and "
+"**nightly**)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:146
+msgid "Firmware version"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:146
+msgid "--fw-version [FW_VERSION]"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:146
+msgid "Select specific firmware version"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:147
+msgid "No Auto-Upgrade"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:147
+msgid "--no-auto-upgrade"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:147
+msgid "Turn off Auto-Upgrade (not recommended)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:148
+msgid "Don't migrate pool settings"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:148
+msgid "--no-keep-pools"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:148
+msgid "Do not keep miner pool configuration"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:149
+msgid "Migrate network settings"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:149
+msgid "Keep miner network configuration, selected by default (recommended)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:150
+msgid "Don't migrate network settings"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:150
+msgid "--no-keep-network"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:150
+msgid "Do not keep miner network configuration (use DHCP)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:151
+msgid "Don't keep hostname"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:151
+msgid "--no-keep-hostname"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:151
+msgid "Do not keep miner hostname and generate new one based on MAC"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:152
+msgid "Keep hostname"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:152
+msgid "--keep-hostname"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:152
+msgid "Keep miner hostname"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:153
+msgid "Post-upgrade"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:153
+msgid "--post-upgrade [POST_UPGRADE]"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:153
+msgid "Path to directory with stage3.sh script"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:154 ../../Setup/2_advanced.rst:155
+#: ../../Setup/2_advanced.rst:156 ../../Setup/2_advanced.rst:157
+#: ../../Setup/2_advanced.rst:158 ../../Setup/2_advanced.rst:189
+#: ../../Setup/2_advanced.rst:220 ../../Setup/2_advanced.rst:221
+#: ../../Setup/2_advanced.rst:222 ../../Setup/2_advanced.rst:272
+#: ../../Setup/2_advanced.rst:273 ../../Setup/2_advanced.rst:307
+#: ../../Setup/2_advanced.rst:308 ../../Setup/2_advanced.rst:343
+#: ../../Setup/2_advanced.rst:365 ../../Setup/2_advanced.rst:366
+#: ../../Setup/2_advanced.rst:367 ../../Setup/2_advanced.rst:368
+#: ../../Setup/2_advanced.rst:369 ../../Setup/2_advanced.rst:399
+#: ../../Setup/2_advanced.rst:400 ../../Setup/2_advanced.rst:401
+msgid "*N/A* - Not implemented"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:154 ../../Setup/2_advanced.rst:272
+#: ../../Setup/2_advanced.rst:307 ../../Setup/2_advanced.rst:343
+#: ../../Setup/2_advanced.rst:365
+msgid "-h, --help"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:154 ../../Setup/2_advanced.rst:189
+#: ../../Setup/2_advanced.rst:272 ../../Setup/2_advanced.rst:365
+#: ../../Setup/2_advanced.rst:399
+msgid "show this help message and exit"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:155
+msgid "--backup"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:155
+msgid "Backup miner before the installation (NAND and configuration)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:156
+msgid "--no-nand-backup"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:156
+msgid "Skip full NAND backup (config is still being backed up)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:157
+msgid "--no-wait"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:157
+msgid "Do not wait until system is fully upgraded and rebooted"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:158
+msgid "--dry-run"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:158
+msgid "Do all upgrade steps without the actual upgrade"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:161 ../../Setup/2_advanced.rst:193
+#: ../../Setup/2_advanced.rst:225 ../../Setup/2_advanced.rst:276
+#: ../../Setup/2_advanced.rst:372
+msgid "**Command example:**"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:167
+msgid ""
+"This command will install Braiins OS+ on the miners, that are specified "
+"in the *listOfMiners.csv* file and set the power limit to 1200 on all of "
+"them. The command will also automatically unlock the Antminer S9."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:173
+msgid "Update Braiins OS+ using BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:183 ../../Setup/2_advanced.rst:215
+#: ../../Setup/2_advanced.rst:252 ../../Setup/2_advanced.rst:266
+#: ../../Setup/2_advanced.rst:302 ../../Setup/2_advanced.rst:338
+#: ../../Setup/2_advanced.rst:360 ../../Setup/2_advanced.rst:395
+msgid "Arguments"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:185
+msgid "Package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:185
+msgid "PACKAGE_NAME"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:185
+msgid "Package name for update (select 'firmware' for firmware update)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:188
+msgid "Ignore non-responsive miners"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:188 ../../Setup/2_advanced.rst:271
+msgid "-i, --ignore"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:188 ../../Setup/2_advanced.rst:271
+msgid "no halt on errors"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:189 ../../Setup/2_advanced.rst:222
+#: ../../Setup/2_advanced.rst:399
+msgid "--h, --help"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:199
+msgid ""
+"This command will look for an update for the miners, that are specified "
+"in the *listOfMiners.csv* and update them if there is a new version of "
+"firmware."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:205
+msgid "Uninstall Braiins OS+ using BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:208 ../../Setup/2_advanced.rst:245
+#: ../../Setup/2_advanced.rst:295 ../../Setup/2_advanced.rst:331
+#: ../../Setup/2_advanced.rst:353
+msgid ""
+"Create a new text file in your text editor and insert the IP addresses on"
+" which you want execute the commands. **Use only one IP address per "
+"line!** (Note that you can find the IP address in the Braiins OS+ web "
+"interface by going to *Status -> Overview*.) Then save the file in the "
+"same directory as you saved the BOS Toolbox and change the \".txt\" "
+"ending to \".csv\"."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:218
+msgid "Default stock firmware"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:218
+msgid "Default setting"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:219
+msgid "Override default feeds server URL"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:220
+msgid "--nand-restore"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:220
+msgid "Use full NAND restore from previous backup"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:221
+msgid "BACKUP_PATH"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:221
+msgid "Path to a directory or tgz file with data for miner restore"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:222 ../../Setup/2_advanced.rst:307
+#: ../../Setup/2_advanced.rst:343
+msgid "Show this help message and exit"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:231
+msgid ""
+"This command will uninstall Braiins OS+ from the miners, that are "
+"specified in the *listOfMiners.csv* file and install a default stock "
+"firmware."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:235
+msgid ""
+"**Important note:** *BACKUP_PATH* is optional. Use only in conjuction "
+"with *--nand-restore* argument. Restoring firnware from backup **is not "
+"recommended**."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:242
+msgid "Configure Braiins OS+ using BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:247
+msgid ""
+"In the **Config** section, fill the **List of miners** option by "
+"selecting the created text file, select the action and press **Start**."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:249
+msgid ""
+"You **have to use one** of the following **actions** to adjust the "
+"process:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:254
+msgid "load"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:254
+msgid ""
+"load the current configuration of the miners (specified in the CSV file) "
+"and insert them to the CSV file"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:256
+msgid "save"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:256
+msgid ""
+"save the settings from the CSV file to the miners (this does not apply "
+"them)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:258
+msgid "apply"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:258
+msgid "apply the settings, which were copied from the CSV file to the miners"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:260
+msgid "save_apply"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:260
+msgid "save and apply the settings from the CSV file to the miners"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:268 ../../Setup/2_advanced.rst:397
+msgid "Username"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:268
+msgid "-u USER, --user USER"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:268
+msgid "Administration username"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:270
+msgid "Change Password"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:270
+msgid "--change-password"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:270
+msgid "Allow password change (to one stated in the *listOfMiners.csv*)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:271
+msgid "Ignore"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:273
+msgid "-c, --check"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:273
+msgid "dry run sans writes"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:286
+msgid ""
+"The first command will load the configuration of the miners, that are "
+"specified in the *listOfMiners.csv* (using the login username *root*) and"
+" save it to the CSV file. You can now open the file and edit what you "
+"need. After the file was edited, the second command will copy the "
+"settings back to the miners, apply them and change the password to one in"
+" the password column."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:297
+msgid "In the **Scan** section, select the IP range for scan and press **Start**."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:305 ../../Setup/2_advanced.rst:340
+msgid "Save output"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:305 ../../Setup/2_advanced.rst:340
+msgid "-o OUTPUT, --output OUTPUT"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:305 ../../Setup/2_advanced.rst:340
+msgid "Save list of found IP addresses to a file"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:306
+msgid "Verbose"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:306
+msgid "-v, --verbose"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:306
+msgid "Report networking errors"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:308 ../../Setup/2_advanced.rst:366
+msgid "-j JOBS, --jobs JOBS"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:308
+msgid "Number of concurrent jobs to scan network"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:311 ../../Setup/2_advanced.rst:405
+msgid "**Command Example:**"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:333
+msgid ""
+"In the **Listen** section press **Start** to start listening for incoming"
+" broadcast from devices (when the IP report button is pressed)."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:341
+msgid "Format"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:341
+msgid "--format FORMAT"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:341
+msgid ""
+"change default formatting string for device information; the tags '{IP}' "
+"and '{MAC}' will be replaced with actual data"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:350
+msgid "Run custom commands on miners using BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:355
+msgid ""
+"In the **Command** section, fill the **Miner(s)** option by selecting the"
+" created text file, the command to run and press **Start**."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:362
+msgid "Show remote output"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:362
+msgid "-o, --output"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:362 ../../Setup/2_advanced.rst:363
+msgid "Capture and print remote output"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:363
+msgid "Show hostname output"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:363
+msgid "-O, --output-hostname"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:366
+msgid "number of concurrent jobs"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:367
+msgid "-a, --auto"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:367
+msgid "Use ssh if rpc is not available"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:368
+msgid "-l, --legacy"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:368
+msgid "Use ssh"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:369
+msgid "-L, --no-legacy"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:369
+msgid "Use rpc"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:383
+msgid "Unlock SSH on Antminer S9 using BOS Toolbox"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:385
+msgid ""
+"**Note:** The unlock functionality is a part of the installation process "
+"and is done automatically."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:390
+msgid ""
+"In the **Unlock** section, fill the **Miner(s)** option by selecting the "
+"created text file and press **Start**."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:397
+msgid "-u USERNAME, --username USERNAME"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:397
+msgid "username for webinterface"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:398
+msgid "password for webinterface"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:400
+msgid "--port PORT"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:400
+msgid "port of antminer webinterface"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:401
+msgid "--ssl"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:401
+msgid "whether to use SSL"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:411
+msgid ""
+"This command will unlock SSH on the miners, that are specified in the "
+"*listOfMiners.csv*."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:417
+msgid "Web Package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:419
+msgid ""
+"The Web package can be used to switch from stock firmware, which was "
+"released before 2019. It should also work on other stock-based firmwares."
+" This package cannot be used on stock firmware, released in 2019 and "
+"later, because of the signature verification, that was implemented. The "
+"signature verification prevents the usage of other than original stock "
+"firmwares."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:425 ../../Setup/2_advanced.rst:447
+msgid ""
+"Download the **Web Package** from our `website <https://braiins-"
+"os.com/>`_."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:432
+msgid "replaces stock firmware with Braiins OS+ without additional tools"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:433
+msgid "migrates the network configuration"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:434
+msgid "migrates pool URLs, users and passwords"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:435 ../../Setup/2_advanced.rst:472
+msgid "turns on autotuning on default power limit"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:437
+msgid "cannot be used on stock firmware released in 2019 and later"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:438
+msgid ""
+"cannot configure the installation (e.g. it will always migrate the "
+"network settings)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:439 ../../Setup/2_advanced.rst:570
+#: ../../Setup/2_advanced.rst:732 ../../Setup/2_advanced.rst:816
+#: ../../Setup/2_advanced.rst:881
+msgid "no batch-mode (unless you create your own scripts)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:445
+msgid "Install Braiins OS+ using Web package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:448
+msgid "Log-in on your miner and go to the section *System -> Upgrade*."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:455
+msgid "SD card image"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:457
+msgid ""
+"If you are running stock firmware, which was released in 2019 and later, "
+"the only way to install Braiins OS+ is to insert an SD card with Braiins "
+"OS+ flashed on it. In 2019, the SSH connection was locked and the "
+"signature verification in the web interface prevents the usage of other "
+"than stock firmware usage."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:463
+msgid ""
+"Download the **SD card image** from our `website <https://braiins-"
+"os.com/>`_."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:470
+msgid "replaces SSH locked stock firmware with Braiins OS+"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:471
+msgid ""
+"uses the network configuration stored on the NAND (this can be turned "
+"off, see the section *Network settings* bellow)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:474
+msgid "does not migrate pool URLs, users and passwords"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:475
+msgid "no batch-mode"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:481
+msgid "Install Braiins OS+ using SD card"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:483
+msgid "Download the SD card image from our `website <https://braiins-os.com/>`_."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:505
+msgid "Network settings"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:507
+msgid ""
+"By default, network configuration stored on the NAND is used, while "
+"running Braiins OS+ from an SD card. This feature can be turned off, by "
+"following the steps bellow:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:509 ../../Setup/2_advanced.rst:537
+msgid "Mount the first FAT partition of the SD card"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:510 ../../Setup/2_advanced.rst:538
+msgid ""
+"Open the file uEnv.txt and insert the following string (make sure there "
+"is only one string per line)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:516
+msgid ""
+"Disabling usage of old network settings is beneficial for the users, that"
+" have problems with the miner not being visible in the network (e.g. "
+"static IP address used on NAND is out of range of the network). By doing "
+"so, DHCP is used."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:522
+msgid "NAND install"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:527
+msgid ""
+"The SD card can be used to replace the firmware running on NAND with "
+"Braiins OS+. This can be done either:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:525
+msgid ""
+"using the web interface - section *System -> Install current system to "
+"device (NAND)*"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:526
+msgid ""
+"using the *miner* tool, via SSH - follow this section of the guide "
+":ref:`miner_nand_install`"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:527
+msgid ""
+"Add ``nand_install=yes`` to the ``uEnv.txt`` file for automatic NAND "
+"installation."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:533
+msgid "Braiins OS+ factory reset using SD card"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:535
+msgid "You can do a factory reset, by following the steps bellow:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:548
+msgid "Remote (SSH) install package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:550
+msgid ""
+"With the *Remote (SSH) install package* you can install or uninstall "
+"Braiins OS+. This method is not recommended, as it requires a Python "
+"setup. Use the BOS Toolbox instead."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:556
+msgid ""
+"Download the **Remote (SSH) install package** from our `website <https"
+"://braiins-os.com/>`_."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:563
+msgid "installs Braiins OS+ remotely"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:571
+msgid "requires a long setup"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:572
+msgid "does not work on miner with locked SSH"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:578
+msgid "Preparing the environment"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:580
+msgid ""
+"First, you need to prepare the Python environment. This consists of the "
+"following steps:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:582 ../../Setup/2_advanced.rst:621
+#: ../../Setup/2_advanced.rst:889
+msgid ""
+"*(Only Windows)* Install *Ubuntu for Windows 10* available from the "
+"Microsoft Store `here. <https://www.microsoft.com/en-"
+"us/store/p/ubuntu/9nblggh4msv6>`_"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:583 ../../Setup/2_advanced.rst:890
+msgid "Run the following commands in your command line terminal:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:585 ../../Setup/2_advanced.rst:625
+#: ../../Setup/2_advanced.rst:892
+msgid ""
+"*(Note that the commands are compatible with Ubuntu and Ubuntu for "
+"Windows 10. If you are using a different distribution of Linux or a "
+"different OS, please check the corresponding documentation and edit the "
+"commands as necessary.)*"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:616
+msgid "Install Braiins OS+ using SSH package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:618
+msgid ""
+"Installation of Braiins OS+ using the so-called *SSH Method* consists of "
+"the following steps:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:620
+msgid ""
+"*(Custom Firmware)* Flash stock firmware. This step can be skipped if the"
+" device is running on stock firmware or on a previous versions of Braiins"
+" OS. *(Note: It is possible, that Braiins OS+ can be installed directly "
+"over a custom firmware, but as they differ from the stock version, it "
+"might be necessary to flash stock firmware first.)*"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:622
+msgid ""
+"Prepare the Python environment, which is described in the section "
+":ref:`ssh_package_environment`."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:623
+msgid ""
+"Run the following commands in your command line terminal (replace the "
+"placeholder ``IP_ADDRESS`` accordingly) :"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:642 ../../Setup/2_advanced.rst:676
+msgid ""
+"**Note:** *for more information about the arguments that can be used, use"
+" the* **--help** *argument.*"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:648
+msgid "Uninstall Braiins OS+ using SSH package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:653
+msgid "Using factory firmware image"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:655 ../../Setup/2_advanced.rst:683
+msgid ""
+"First, you need to prepare the Python environment, which is described in "
+"the section :ref:`ssh_package_environment`."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:657
+msgid ""
+"On an Antminer  you can flash a factory firmware image from the "
+"manufacturer’s website, with ``FACTORY_IMAGE`` being file path or URL to "
+"the ``tar.gz`` (not extracted!) file. Supported images with corresponding"
+" MD5 hashes are listed in the `platform.py "
+"<https://github.com/braiins/braiins/blob/master/braiins-"
+"os/upgrade/am1/platform.py>`__ file."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:664
+msgid ""
+"Run (replace the placeholders ``FACTORY_IMAGE`` and ``IP_ADDRESS`` "
+"accordingly):"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:681
+msgid "Using previously created backup"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:685
+msgid ""
+"If you created a backup of the original firmware during the installation "
+"of Braiins OS+, you can restore it by using the following commands "
+"(replace the placeholders ``BACKUP_ID_DATE`` and ``IP_ADDRESS`` "
+"accordingly):"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:697
+msgid ""
+"**Note: This method is not recommended as the backup creation is very "
+"finicky. The backup can be corrupted and there is no way to check it. Use"
+" at your own risk and make sure, you can access the miner and insert an "
+"SD card to it in case the restoration does not finish successfully!**"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:703
+msgid "OPKG"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:705
+msgid ""
+"OPKG commands can be used after connecting to the miner via SSH. There "
+"are many OPKG commands, but regarding Braiins OS+, you need to use only "
+"the following:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:707
+msgid ""
+"*opkg update* - updates the package lists. It's recommended to use this "
+"command before other OPKG commands."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:708
+msgid ""
+"*opkg install PACKAGE_NAME* install the defined package. It's recommended"
+" to use *opkg update* to update the package lists before installing "
+"packages."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:709
+msgid "*opkg remove PACKAGE_NAME*"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:711
+msgid ""
+"Since the firmware change results in a reboot, the following output is "
+"expected:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:727
+msgid "update Braiins OS+ remotely"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:728
+msgid "switch to Braiins OS+ from other versions remotely"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:729
+msgid "revert to the initial version of Braiins OS remotely"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:730
+msgid ""
+"migrates the configuration and continue to mine without a need to "
+"configure anything (when updating or switching to Braiins OS+)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:738
+msgid "Update Braiins OS+ using OPKG"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:740
+msgid ""
+"With OPKG you can easily update your current installation of Braiins OS+,"
+" by connecting to the miner via SSH and using the following commands:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:750
+msgid ""
+"This will migrate the configuration and continue to mine without a need "
+"to configure anything."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:756
+msgid "Switch to Braiins OS+ from other versions using OPKG"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:758
+msgid ""
+"With OPKG you can easily switch to Braiins OS+, by connecting to the "
+"miner via SSH and using the following commands:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:768
+msgid ""
+"This will migrate the configuration and continue to mine without a need "
+"to configure anything. Default power limit will be set."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:774
+msgid "Braiins OS+ factory reset using OPKG"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:776
+msgid ""
+"With OPKG you can easily revert to the initial version of Braiins OS (the"
+" version, which was installed for the first time on that device), by "
+"connecting to the miner via SSH and using the following commands:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:786
+msgid ""
+"This will reset the configuration to the state after the first Braiins OS"
+" installation."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:792
+msgid "Sysupgrade package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:794
+msgid ""
+"Sysupgrade is used to upgrade the system running on the device. With this"
+" method, you can install various versions of Braiins OS or create a "
+"backup of the system. Installation of a firmware using *Braiins OS web "
+"interface* or using *opkg install firmware* uses this method. It's "
+"recommended to use the *Braiins OS web interface* or *opkg install "
+"firmware* instead of this method."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:800
+msgid ""
+"In order to use sysupgrade, you need to connect to the miner via SSH. The"
+" syntax is the following:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:806
+msgid ""
+"The most important parameters are **--help** (to display the help) and "
+"**-F** to force the installation. It's not recommended to use this method"
+" (besides the way, it is described bellow), unless you really know, what "
+"you are doing."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:812
+msgid "installs various version of Braiins OS, while connected to the miner"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:813
+msgid "migrates the configuration"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:817
+msgid "cannot switch to an older version of Braiins OS (released before 2020)"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:823
+msgid ""
+"Switch to Braiins OS (without autotuning) from other versions using "
+"Sysupgrade"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:825
+msgid ""
+"In order to upgrade from older version of Braiins OS or downgrade from "
+"Braiins OS+, use the following command (replace the placeholder "
+"``IP_ADDRESS`` accordingly):"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:835 ../../Setup/2_advanced.rst:857
+msgid "This command contains the following commands:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:837 ../../Setup/2_advanced.rst:859
+msgid "**ssh** - to connect to the miner"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:838 ../../Setup/2_advanced.rst:860
+msgid "**wget** - used for downloading files, in this case the firmware package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:839 ../../Setup/2_advanced.rst:861
+msgid "**sysupgrade** - to actually flash the downloaded firmware package"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:845
+msgid "Switch to Braiins OS+ from other versions using Sysupgrade"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:847
+msgid ""
+"In order to upgrade from older version of Braiins OS, use the following "
+"command (replace the placeholder ``IP_ADDRESS`` accordingly):"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:863
+msgid ""
+"Note: It's recommended to use the *BOS Toolbox*, *Braiins OS web "
+"interface* or *opkg install bos_plus* instead of this method."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:869
+msgid "Bos2Bos script"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:871
+msgid ""
+"**Bos2Bos script is not recommended to use, unless you experience "
+"problems with the installation using the other methods.** This method "
+"works, only if Braiins OS is already running on the device."
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:877
+msgid "installs any version of Braiins OS remotely"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:878
+msgid "install a clean version of Braiins OS"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:887
+msgid "Usage of the Bos2Bos script requires the following setup:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:911
+msgid ""
+"After you succesfully finish the setup, you can use the following "
+"commands:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:926
+msgid "Miner tool"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:932
+msgid "SD to NAND install using the Miner tool"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:934
+msgid ""
+"The SD card can be used to replace the firmware running on NAND with "
+"Braiins OS+. This can be done by connecting to the miner via SSH and "
+"usage of the following command:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:945
+msgid "Braiins OS+ factory reset using the Miner tool"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:947
+msgid ""
+"Factory reset can also be done using the *Miner tool*. Use the following "
+"command to do so:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:957
+msgid "Detect device with LEDs using Miner tool"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:959
+msgid ""
+"You can find a device by turning on LED blinking, using the *Miner tool*."
+" Use the following command to do so:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:973
+msgid "Turn on/off Nightly feeds using the Miner tool"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:975
+msgid ""
+"You can turn on Nightly feeds to get updated to the latest nightly "
+"builds. These builds aim to fix crucial issues as fast as possible and, "
+"because of that, they are not tested as thoroughly as major releases "
+"before being published. Use these builds with caution and only if it "
+"solves your issues. In order to turn on/off the nightly feeds, use the "
+"following command:"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:989
+msgid "Turn on/off auto-upgrade using the Miner tool"
+msgstr ""
+
+#: ../../Setup/2_advanced.rst:991
+msgid ""
+"You can turn on the auto-upgrade feature, which will automatically "
+"upgrade the system to the latest version. This feature is **turned on** "
+"by default after transitioning from a **stock** firmware and **turned "
+"off** by default after upgrading from older versions of **Braiins OS** or"
+" **Braiins OS+**. In order to manually turn on/off auto-upgrade, use the "
+"following command:"
+msgstr ""
+
+#: ../../Setup/3_troubleshooting.rst:14
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../Setup/3_troubleshooting.rst:18
+msgid "Recovering Bricked (unbootable) Devices Using SD Card"
+msgstr ""
+
+#: ../../Setup/3_troubleshooting.rst:20
+msgid ""
+"If anything goes wrong and your device seems unbootable, you can use the "
+"previously created SD card image to recover the original firmware from "
+"the manufacturer by using the following commands:"
+msgstr ""
+
+#: ../../Setup/3_troubleshooting.rst:30
+msgid ""
+"After the script finishes, wait a few minutes and adjust the jumper to "
+"boot from NAND (internal memory)."
+msgstr ""
+
+#: ../../Setup/3_troubleshooting.rst:35
+msgid "BOSminer operation"
+msgstr ""
+
+#: ../../Setup/3_troubleshooting.rst:37
+msgid "BOSminer can be controlled using the command line or via the web page."
+msgstr ""
+
+#: ../../Setup/3_troubleshooting.rst:39
+msgid "In order to start or stop BOSminer, use the following commands:"
+msgstr ""
+
+#: ../../Setup/3_troubleshooting.rst:46
+msgid ""
+"Alternatively, BOSminer can be controlled in `System -> Startup` page and"
+" it is restarted every time the user clicks on the `Save & Apply` button "
+"in the `Miner -> Configuration` page."
+msgstr ""
+
+#: ../../Setup/index_setup.rst:14
+msgid "Setup"
+msgstr ""
+

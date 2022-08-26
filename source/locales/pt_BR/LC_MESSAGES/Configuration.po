@@ -1,0 +1,679 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, braiins
+# This file is distributed under the same license as the doctest package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: doctest \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-26 10:55+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../Configuration/index_configuration.rst:17
+msgid "Configuration"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:25
+msgid "Configure Braiins OS+ using BOS Toolbox"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:27
+msgid ""
+"You can easily configure Braiins OS+ on multiple devices using the **BOS "
+"Toolbox**. In order to do so, follow the steps in the section "
+":ref:`bosbox_configure`."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:31
+msgid "BTC Tools Support"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:33
+msgid ""
+"Braiins OS+ is supported by BTC Tools - batch management tool for miners."
+" New versions of Braiins OS+ are supported - upgrade via Toolbox if you "
+"are using versions before 20.11. S9 and as well as x17 miners with "
+"Braiins OS+ are supported. BTC Tools for Windows/Linux can be downloaded "
+"here `here <https://btccom.zendesk.com/hc/en-us/articles/360020105012>`_."
+" On the same page, documenation on how to use BTC Tools is available."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:35
+msgid ""
+"With exception of the below, Braiins OS+ supports all features of BTC "
+"Tools."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:37
+msgid "Limitations of BTC Tools when using with Braiins OS+:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:39
+msgid "Settings in Overclock/Underclock section does not affect Braiins OS+"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:40
+msgid ""
+"LPM checkbox works for S9 only and enables/disables asicboost. However, "
+"pools that support mining.configure and version rolling are still "
+"required."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:41
+msgid ""
+"Enhanced LPM will turn autotuning on and set miner's power limit to 2/3 "
+"of the default power limit for the miner"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:42
+msgid ""
+"Disabling Enhanced LPM keeps autotuning on its last state and sets "
+"miner's power limit to the default power limit for the miner (hardware "
+"specific)"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:43
+msgid ""
+"Note: both LPM and Enhanced LPM options are used only when \"Power "
+"Control\" is checked. Otherwise, machine specific settings is kept."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:44
+msgid ""
+"Autotuning cannot be currently turned off with BTC Tools and power limit "
+"cannot be set to specific value"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:45
+msgid "Hardware attribute is not populated"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:46
+msgid ""
+"In case when there are multiple groups configured on the miner, only "
+"pools associated with the first one are shown in the tool"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:50
+msgid "Configure Braiins OS+ using Remote (SSH) Package"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:52
+msgid "The installation script uses two types of arguments:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:54
+msgid "positional arguments - required for the installation to be completed;"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:55
+msgid ""
+"optional arguments - optional (i.e. not required) for the installation to"
+" be completed."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:57
+msgid "The syntax for the installation script is the following:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:65
+msgid "**Positional arguments:**"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:71
+msgid "**Optional arguments:**"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:86
+msgid "Pool Settings"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:88
+msgid ""
+"Users can specify multiple pools. All the pools in one group use the "
+"fail-over multi-pool strategy, which means that BOSminer will "
+"automatically switch to the second pool if the first pool dies."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:91
+#: ../../Configuration/index_configuration.rst:149
+#: ../../Configuration/index_configuration.rst:193
+msgid ""
+"Configuration is available through web GUI (*Miner -> Configuration*) or "
+"in the configuration file ``/etc/bosminer.toml``."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:93
+#: ../../Configuration/index_configuration.rst:195
+#: ../../Configuration/index_configuration.rst:262
+msgid "The syntax is the following:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:107
+msgid ""
+"*name* - Name of the pool group (explained in the section *Pool Groups* "
+"below)"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:108
+msgid ""
+"*quota* - User set quota for the group (explained in the section *Pool "
+"Groups* below)"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:109
+msgid ""
+"*enabled* - Initial state of the pool after BOSminer initialization "
+"(default=true)"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:110
+msgid ""
+"*url* - Mandatory argument for server URL specified in the format "
+"``scheme://HOSTNAME:PORT/POOL_PUBLIC_KEY``. You don't have to specify an "
+"explicit port for *Stratum V2* on Slush Pool. The reason is that the "
+"protocol is still in development and we alternate between two default "
+"ports (**3336** and **3337**) across protocol upgrades. Miners that don't"
+" upgrade would still be able to use the previous version of the protocol."
+" Miners that do upgrade won't have to worry about upgrading their mining "
+"URL with a new port. There is a *new* required element of the URL in the "
+"path and that is the public key advertised by the pool that the mining "
+"software uses to verify the authenticity of the mining endpoint that it "
+"connects to. This prevents man-in-the-middle-attacks that attempt to "
+"steal hashrate. Any such attempt results in failed verification and the "
+"software refuses to use the given pool entry."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:124
+msgid ""
+"*user* - Mandatory argument for username specified in format "
+"``USERNAME.WORKERNAME``"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:125
+msgid "*password* - Optional password settings"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:128
+msgid "Pool Groups"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:130
+msgid ""
+"Users can create multiple different pool groups. All pools within one "
+"group use the fail-over multi-pool strategy described above. When "
+"multiple pool groups are created, the work is distributed to each group "
+"with the load-balance strategy, either on a Quota basis or with a Fixed "
+"Share Ratio."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:135
+msgid "Example:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:137
+msgid ""
+"Group 1 has two pools specified and is assigned a Quota of \"1\". Group 2"
+" has just one pool specified and is assigned a Quota of \"2\"."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:140
+msgid "The work is assigned to the groups with a 1:2 ratio"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:141
+msgid "Group 2 will get twice the amount of work assigned as Group 1."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:142
+msgid ""
+"If the first pool in Group 1 dies, BOSminer will switch to the second "
+"pool in Group 1."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:145
+msgid ""
+"It's possible to use Fixed Share Ratio instead of Quota, which will split"
+" the work by a specified percentage. A Quota of 1:1 is equivalent to a "
+"Fixed Share Ratio of 0.5 (50%) - both of those settings will split the "
+"work in half and send it to the two groups."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:152
+msgid "Example of two groups and multiple pools:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:178
+msgid ""
+"With this setup, the work will be split between the two groups in ratio "
+"1:2. By default, the miner will be mining on the first pool from the "
+"group \"MyGroup1\" and on the one pool defined in the group \"MyGroup2\"."
+" If the first pool in \"MyGroup1\" dies, the miner will be mining on the "
+"second pool from the group \"MyGroup1\". Since a second pool url isn't "
+"specified for \"MyGroup2\", nothing will be done if the pool in "
+"\"MyGroup2\" fails."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:186
+msgid "Hash Chain Settings"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:188
+msgid ""
+"Optional configuration for overriding the default settings for all hash "
+"chains. This allows the users to control the frequency and voltage of "
+"each hash chain and allows them to turn AsicBoost o n and off. While "
+"autotuning is enabled, these settings are ignored. The global hash chain "
+"settings can also be overridden by per-chain settings."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:204
+msgid "*asic_boost* - Enable or disable AsicBoost support (default=true)"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:205
+msgid ""
+"*frequency* - Set default chip frequency in MHz for all hash chains "
+"(default=650.0)"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:206
+msgid "*voltage* - Set default voltage in V for all hash chains (default=8.8)"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:208
+msgid "The syntax for per-chain settings is the following:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:216
+msgid "*[hash_chain.6]* - Override the global settings for hash chain '6'"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:217
+msgid ""
+"*frequency* - Override the global chip frequency in MHz for hash chain "
+"'6' (default='hash_chain_global.frequency')"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:218
+msgid ""
+"*voltage* - Override the global voltage in V for hash chain '6' "
+"(default='hash_chain_global.voltage')"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:222
+msgid "Temperature and Fan Control"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:225
+msgid "Temperature Control Mode"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:227
+msgid ""
+"Braiins OS+ supports automatic temperature control (using `PID controller"
+" <https://en.wikipedia.org/wiki/PID_controll>`__). The controller can "
+"operate in one of three modes:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:230
+msgid ""
+"**Automatic** - Miner software tries to regulate the fan speed so that "
+"miner temperature is approximately at the target temperature (which can "
+"be configured). The allowed temperature range is 0-200 degree Celsius."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:234
+#, python-format
+msgid ""
+"**Manual** - Fans are kept at a fixed, user-defined speed, no matter the "
+"temperature. This is useful if you have your own way of cooling the miner"
+" or if the temperature sensors don’t work. Allowed fan speed is 0%-100%. "
+"The control unit monitors only hot and dangerous temperatures."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:238
+msgid ""
+"**Disabled** - **WARNING**: this may damage the device because no control"
+" is done!"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:240
+msgid ""
+"The temperature control mode can be changed in the *Miner -> "
+"Configuration* page or in the configuration file ``/etc/bosminer.toml``."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:242
+msgid ""
+"**Warning**: misconfiguring fans (either by turning them off or to a "
+"level that is too slow, or by setting the target temperature too high) "
+"may irreversibly **DAMAGE** your miner."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:247
+msgid "Default temperature limits"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:249
+msgid ""
+"The default temperature limits are set to prevent the miner from "
+"overheating and being damaged."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:251
+msgid ""
+"**Target temperature** is a temperature that the miner will try to "
+"maintain (*default is* **89°C**)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:252
+msgid ""
+"**Hot temperature** is a threshold at which the fans start to run at 100%"
+" (*default is* **100°C**)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:253
+msgid ""
+"**Dangerous temperature** is a threshold at which BOSminer shuts down in "
+"order to prevent overheating and damaging the miner (*default is* "
+"**110°C**)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:255
+msgid ""
+"Default temperature limits can be adjusted in the *Miner -> "
+"Configuration* page or in the configuration file ``/etc/bosminer.toml``."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:258
+msgid "Temperature and Fan Control configuration in ``bosminer.toml``"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:260
+msgid ""
+"The default values can be overridden by editing the corresponding lines "
+"in the configuration file, located in ``/etc/bosminer.toml``."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:272
+msgid "*mode* - Set temperature control mode (default='auto')"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:273
+msgid ""
+"*target_temp* - Set target temperature in Celsius (default=89.0). This "
+"option is ONLY used when 'temp_control.mode' is set to 'auto'!"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:274
+msgid ""
+"*hot_temp* - Set hot temperature in Celsius (default=100.0). When this "
+"temperature is reached, the fan speed is set to 100%."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:275
+msgid ""
+"*dangerous_temp* - Set dangerous temperature in Celsius (default=110.0). "
+"When this temperature is reached, the mining is turned off! **WARNING:** "
+"setting this value too high may damage the device!"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:284
+msgid ""
+"*speed* - Set a fixed fan speed in % (default=70). This option is NOT "
+"used when *temp_control.mode* is set to 'auto'!"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:285
+msgid ""
+"*min_fans* - Set the minimum number of fans required for BOSminer to run "
+"(default=1)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:286
+msgid "To completely **disable fan control**, set 'speed' and 'min_fans' to 0."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:289
+msgid "Fan operation"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:291
+msgid ""
+"Once temperature sensors are initialized, fan control is enabled. If "
+"temperature sensors are not working or they read out a temperature of 0, "
+"fans are automatically set to full speed."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:294
+msgid "If the current mode is “fixed fan speed”, the fan is set to a given speed."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:296
+msgid ""
+"If the current mode is “automatic fan control”, the fan speed is "
+"regulated by temperature."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:298
+msgid ""
+"In case the miner's temperature is above the *HOT temperature*, fans are "
+"set to 100% (even in “fixed fan speed” mode)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:300
+msgid ""
+"In case the miner's temperature is above the *DANGEROUS temperature*, "
+"BOSminer shuts down (even in “fixed fan speed” mode)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:305
+msgid "Tuning Adjustments"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:307
+msgid ""
+"Tuning can be configured either via web GUI, using BOS Toolbox or in the "
+"configuration file ``/etc/bosminer.toml``."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:309
+msgid ""
+"To make a configuration change via web GUI, enter the *Miner -> "
+"Configuration* menu and edit the *Autotuning* section."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:312
+#: ../../Configuration/index_configuration.rst:340
+#: ../../Configuration/index_configuration.rst:369
+msgid ""
+"To make a configuration change on multiple devices using the **BOS "
+"Toolbox**, follow the steps in the section :ref:`bosbox_configure`."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:314
+#: ../../Configuration/index_configuration.rst:342
+msgid ""
+"To make a configuration change in the configuration file, connect to the "
+"miner via SSH and edit the file ``/etc/bosminer.toml``. The syntax is the"
+" following:"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:323
+msgid ""
+"The *enabled* line can hold values *true* for enabled autotuning, or "
+"*false* for disabled autotuning. The *psu_power_limit* can hold numeric "
+"values (min. 100 and max. 5000), representing the PSU power limit (in "
+"Watts) for three hashboards and the control board."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:327
+msgid ""
+"Alternatively, it's possible to turn on autotuning automatically after "
+"the installation finishes with the ``Set Power Limit`` option (or with "
+"the ``--power-limit POWER_LIMIT``   argument in the installation "
+"command)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:331
+msgid "Dynamic Power Scaling"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:333
+msgid ""
+"Dynamic Power Scaling automatically lowers the power limit of the miner "
+"by a user-set amount if the device reaches the *Hot Temperature*. Upon "
+"reaching the user-set minimal power limit, the miner shuts down in order "
+"to cool down. The miner starts to work on the original power limit again "
+"after a user-set period of time."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:335
+msgid ""
+"Dynamic Power Scaling can be configured either via web GUI, using BOS "
+"Toolbox or in the configuration file ``/etc/bosminer.toml``."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:337
+msgid ""
+"To make a configuration change via web GUI, enter the *Miner -> "
+"Configuration* menu and edit the *Dynamic Power Scaling* section."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:354
+msgid ""
+"The *enabled* line can hold values *true* for enabled Dynamic Power "
+"Scaling, or *false* for disabled Dynamic Power Scaling. The *power_step* "
+"can hold numeric values (min. 100 and max. 1000), representing the power "
+"limit step-down (in Watts), which happens each time miner hits *HOT* "
+"temperature. The *min_psu_power_limit* can hold numeric values (min. 100 "
+"and max. 5000), representing the minimal PSU power limit for the Dynamyc "
+"Power Scaling. If *psu_power_limit* is at *min_psu_power_limit* level and"
+" miner is still *HOT* and *shutdown_enabled* is true, then miner is shut "
+"down for a period of time, defined in the *shutdown_duration* value (in "
+"hours). After that, miner is started but with the initial value of "
+"*psu_power_limit* (*PSU power limit* in the *Autotuning* section)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:360
+msgid "Auto-upgrade"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:362
+msgid ""
+"When auto-upgrade is turned on, the machine will periodically check for a"
+" new version of Braiins OS+ and upgrade to it automatically when found. "
+"This feature is turned on by default after switching from stock firmware,"
+" but it has to be turned on manually if the user upgraded from an older "
+"version of Braiins OS or Braiins OS+."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:364
+msgid "Auto-upgrade can be configured either via web GUI or using BOS Toolbox."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:366
+msgid ""
+"To make a configuration change via web GUI, enter the *System -> Upgrade*"
+" menu and edit the *System Upgrade* section."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:371
+msgid ""
+"Alternatively, it's possible to turn **off** auto-upgrade during the "
+"installation by selecting the ``No Auto-Upgrade`` option (``--no-auto-"
+"upgrade`` argument in the installation command)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:373
+msgid ""
+"**Note:** The auto-upgrade feature has a time-randomization implemented "
+"in order to prevent high bandwidth load on farms. That means that the "
+"devices won't all upgrade at the same time. Auto-upgrade checks for new "
+"version three times a day."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:377
+msgid "SSH password"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:379
+msgid ""
+"You can set the miner’s password via SSH from a remote host by running "
+"the below command and replacing *[newpassword]* with your own password."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:382
+msgid "Note: Braiins OS+ does **not** keep a history of the commands executed."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:388
+msgid ""
+"To do this for several hosts in parallel you could use `p-ssh "
+"<https://linux.die.net/man/1/pssh>`__."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:393
+msgid "MAC & IP address"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:395
+msgid ""
+"By default, the device’s MAC address stays the same as it is inherited "
+"from firmware (stock or Braiins OS) stored in the device (NAND). That "
+"way, once the device boots with Braiins OS+, it will have the same IP "
+"address as it had with the factory firmware."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:400
+msgid ""
+"Alternatively, you can specify a MAC address of your choice by modifying "
+"the ``ethaddr=`` parameter in the ``uEnv.txt`` file (found in the first "
+"FAT partition of the SD card)."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:406
+msgid "Model Detection"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:408
+msgid ""
+"This configuration option allows overriding the result of hardware auto-"
+"detection and honor the preset hardware type in the configuration. This "
+"is to cover the situation where all 3 hashboards have corrupted EEPROM's."
+" If enabled, the model will be taken from the **[format] - model** "
+"option."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:410
+msgid ""
+"In order to enable this functionality, add the following lines to the "
+"``/etc/bosminer.toml`` file. This way, the model will be taken from the "
+"**model** field."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:417
+msgid ""
+"**Example:** the miner is ``Antminer S17``, but the EEPROMs contain false"
+" information, that it's ``Antminer T17e``. In order to override the model"
+" detection and set it to a correct model, ``Antminer S17``, correct the "
+"``model`` field and add the lines from above."
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:419
+msgid "Content of ``/etc/bosminer.toml`` - **Wrong model**"
+msgstr ""
+
+#: ../../Configuration/index_configuration.rst:430
+msgid "Content of ``/etc/bosminer.toml`` - **Correct model, after editing**"
+msgstr ""
+
